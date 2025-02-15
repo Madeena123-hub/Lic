@@ -15,9 +15,9 @@ The source is typically grounded or connected through a resistor.
 |---------------------|------------------------|-------------------------|
 | **MOSFET Model**    | `CMOSN (TSMC 180nm)`   | Acts as the **main amplifying device** in the common-source configuration. |
 | **Channel Length (L)** | **180 nm (0.18 µm)**  | Controls MOSFET **short-channel effects** and impacts transconductance (\( g_m \)). |
-| **Channel Width (W)**  | **0.21 µm**          | Determines **current driving capability** and affects gain. |
+| **Channel Width (W)**  | **0.209 µm**          | Determines **current driving capability** and affects gain. |
 | **Threshold Voltage (\( V_{th} \))** | **0.366V** | The minimum gate voltage required to turn **ON** the MOSFET. |
-| **Drain Resistor (\( R_D \))** | **2.9 kΩ**   | Converts **drain current (\( I_D \))** into **output voltage**; higher \( R_D \) increases gain but limits bandwidth. |
+| **Drain Resistor (\( R_D \))** | **2.749414941 kΩ**   | Converts **drain current (\( I_D \))** into **output voltage**; higher \( R_D \) increases gain but limits bandwidth. |
 | **Supply Voltage (\( V_{DD} \))** | **1.8V** | Provides the necessary **power** for MOSFET operation. |
 | **DC Bias Voltage (\( V_{in} \))** | **0.9V** | Ensures MOSFET is **in saturation region**, allowing proper amplification. |
 | **AC Input Signal** | `SINE(0.9V 50mV 1kHz)` | Small **sinusoidal signal** applied at the **gate** for amplification. |
@@ -26,12 +26,12 @@ The source is typically grounded or connected through a resistor.
 | **Output Voltage (\( V_{out} \))** | **Measured at Drain** | The **amplified** and **inverted** version of the input signal. |
 
 ### DC,AC and Transient analysis
-### **Summary of Different Analyses in Common Source Amplifier**
-
 | **Analysis Type**  | **Purpose**                        | **Key Result**                     |
 |-------------------|--------------------------------|--------------------------------|
 | **DC Analysis**   | Determines **biasing point**   | Confirms MOSFET in **saturation** |
 | **AC Analysis**   | Measures **gain & frequency response** | Calculates **Voltage Gain (\( A_v \))** |
 | **Transient Analysis** | Observes **real-time behavior** | Shows **amplified and inverted output** |
+
+### 
 
 
