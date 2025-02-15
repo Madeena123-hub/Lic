@@ -15,7 +15,7 @@ The source is typically grounded or connected through a resistor.
 |---------------------|------------------------|-------------------------|
 | **MOSFET Model**    | `CMOSN (TSMC 180nm)`   | Acts as the **main amplifying device** in the common-source configuration. |
 | **Channel Length (L)** | **180 nm (0.18 µm)**  | Controls MOSFET **short-channel effects** and impacts transconductance (\( g_m \)). |
-| **Channel Width (W)**  | **0.209 µm**          | Determines **current driving capability** and affects gain. |
+| **Channel Width (W)**  | **0.2091 µm**          | Determines **current driving capability** and affects gain. |
 | **Threshold Voltage (\( V_{th} \))** | **0.366V** | The minimum gate voltage required to turn **ON** the MOSFET. |
 | **Drain Resistor (\( R_D \))** | **2.749414941 kΩ**   | Converts **drain current (\( I_D \))** into **output voltage**; higher \( R_D \) increases gain but limits bandwidth. |
 | **Supply Voltage (\( V_{DD} \))** | **1.8V** | Provides the necessary **power** for MOSFET operation. |
@@ -32,6 +32,55 @@ The source is typically grounded or connected through a resistor.
 | **AC Analysis**   | Measures **gain & frequency response** | Calculates **Voltage Gain (\( A_v \))** |
 | **Transient Analysis** | Observes **real-time behavior** | Shows **amplified and inverted output** |
 
-### 
+### **DC ANALYSIS**
 
+To determine the proper biasing for the MOSFET so that it operates in the saturation region with a desired drain current (ID = 55.55 µA).  
+The analysis is performed using **.OP (Operating Point) analysis**, and power is given as **100 µW**.
+
+1. **Assume Initial Drain Resistor (RD)**
+   - Start with RD = 1kΩ.
+
+2. **Run DC Simulation using .OP Analysis**
+   - Obtain Vout (Drain Voltage) from the simulation.
+   - Results:
+     - Vout = 1.64727V
+     - VDD = 1.8V
+     - Power = 100 µW
+
+3. **Calculate Drain Current (ID) using Power Formula:**
+   - Formula: P = V × I
+   - Given P = 100 µW and VDD = 1.8V:
+     - ID = P / VDD = (100 µW) / (1.8V) = 55.55 µA
+
+4. **Calculate New RD Value:**
+   - Using the output voltage equation: Vout = VDD - ID * RD
+   - Rearranging for RD:
+     - RD = (VDD - Vout) / ID
+   - Substituting values:
+     - RD = (1.8V - 1.64727V) / (55.55 µA) = 2.749414941kΩ
+
+5. **Replace RD with New Value**
+   - Update RD in the circuit to 2.749414941kΩ and rerun the simulation.
+
+6. **Iterative Width Calculation (W)**
+   - Keep adjusting MOSFET Width (W) while maintaining Length (L = 180nm).
+   - Repeat until ID = 55.55 µA is achieved.
+   - **Final width found: W = 0.2091 µm (or 2091 nm).**
+
+- Final RD = 2.75kΩ
+- Final MOSFET Width (W) = **0.2091 µm**
+- Biasing confirmed for correct MOSFET operation.
+- .OP analysis verifies the correct operating point.
+
+# MOSFET Width vs. Drain Current (ID)
+
+| Width (W) in µm | Drain Current (ID) in µA |
+|-----------------|-------------------------|
+| 0.100          | 47.62                   |
+| 0.150          | 50.00                   |
+| 0.190          | 53.632                  |
+| 0.200          | 54.624                  |
+| 0.2091          | 55.55                   |
+
+As the width (W) increases, the drain current (ID) also increases. The desired ID = **55.55 µA** was achieved at **W = 0.2091µm**.
 
