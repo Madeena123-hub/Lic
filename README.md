@@ -1,4 +1,4 @@
-**DC,AC and Transient Analysis of Common Source Amplifier using LTSpice**
+### **DC,AC and Transient Analysis of Common Source Amplifier using LTSpice**
 
 **1.**
 
@@ -83,5 +83,6 @@ The analysis is performed using **.OP (Operating Point) analysis**, and power is
 | 0.2091          | 55.55                   |
 
 As the width (W) increases, the drain current (ID) also increases. The desired ID = **55.55 µA** was achieved at **W = 0.2091µm**.
-![image alt](https://github.com/Madeena123-hub/Lic/blob/main/Screenshot%202025-02-15%20053848.png?raw=true) 
+![image alt](https://raw.githubusercontent.com/Madeena123-hub/Lic/e2884ffe5e6483ac27b8d6b585380654c2d9b409/Screenshot%202025-02-15%20055950.png) 
+![image alt](https://raw.githubusercontent.com/Madeena123-hub/Lic/e2884ffe5e6483ac27b8d6b585380654c2d9b409/Screenshot%202025-02-15%20055950.png) 
 
