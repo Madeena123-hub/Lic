@@ -24,3 +24,14 @@ The source is typically grounded or connected through a resistor.
 | **Amplitude of AC Input** | **50mV** | Determines the **input signal strength** to be amplified. |
 | **Frequency of AC Input** | **1 kHz** | The frequency of the input **test signal** for amplification. |
 | **Output Voltage (\( V_{out} \))** | **Measured at Drain** | The **amplified** and **inverted** version of the input signal. |
+
+### DC,AC and Transient analysis
+### **Summary of Different Analyses in Common Source Amplifier**
+
+| **Analysis Type**  | **Purpose**                        | **Key Result**                     |
+|-------------------|--------------------------------|--------------------------------|
+| **DC Analysis**   | Determines **biasing point**   | Confirms MOSFET in **saturation** |
+| **AC Analysis**   | Measures **gain & frequency response** | Calculates **Voltage Gain (\( A_v \))** |
+| **Transient Analysis** | Observes **real-time behavior** | Shows **amplified and inverted output** |
+
+
