@@ -12,4 +12,3 @@ The source is typically grounded or connected through a resistor.
 
 
 
-
