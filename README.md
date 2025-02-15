@@ -8,7 +8,7 @@ A Common Source (CS) Amplifier is a basic MOSFET-based amplifier where the sourc
 The input signal is applied at the gate.
 The output is taken from the drain.
 The source is typically grounded or connected through a resistor.
-![image alt](https://raw.githubusercontent.com/Madeena123-hub/Lic/d188636a0e60dbc8b4fe059c8d8d8dc379669ee2/Screenshot%202025-02-15%20034045.png) 
+![image alt](https://github.com/Madeena123-hub/Lic/blob/main/Screenshot%202025-02-15%20053848.png?raw=true) 
 ### **Component Details & Their Roles**
 
 | **Component**       | **Value/Specification** | **Role in the Circuit** |
