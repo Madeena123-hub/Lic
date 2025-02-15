@@ -83,9 +83,16 @@ The analysis is performed using **.OP (Operating Point) analysis**, and power is
 | 0.2091          | 55.55                   |
 
 As the width (W) increases, the drain current (ID) also increases. The desired ID = **55.55 µA** was achieved at **W = 0.2091µm**.
+
 ![image alt](https://raw.githubusercontent.com/Madeena123-hub/Lic/e2884ffe5e6483ac27b8d6b585380654c2d9b409/Screenshot%202025-02-15%20055950.png)
 ![image alt](https://raw.githubusercontent.com/Madeena123-hub/Lic/391b45042d78792c58b533adc1f2b86f6dfec6ad/Screenshot%202025-02-15%20060040.png) 
+**To check if the MOSFET is in the saturation region:**
+VDS > VOV
+VDS=vout=1.64727V
+VOV=VGS-VTH=0.9v-0.366v =0.534v
+1.64727V > 0.534v
 
 ### **AC ANALYSIS**
+
 
 
