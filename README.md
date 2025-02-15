@@ -1,1 +1,3 @@
-Analysis of Common Source Amplifier using LTSpice
+DC,AC and Transient Analysis of Common Source Amplifier using LTSpice
+
+
