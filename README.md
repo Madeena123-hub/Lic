@@ -67,7 +67,7 @@ The analysis is performed using **.OP (Operating Point) analysis**, and power is
    - Repeat until ID = 55.55 µA is achieved.
    - **Final width found: W = 0.2091 µm (or 2091 nm).**
 
-- Final RD = 2.75kΩ
+- Final RD = 2.749414941kΩ
 - Final MOSFET Width (W) = **0.2091 µm**
 - Biasing confirmed for correct MOSFET operation.
 - .OP analysis verifies the correct operating point.
@@ -83,5 +83,9 @@ The analysis is performed using **.OP (Operating Point) analysis**, and power is
 | 0.2091          | 55.55                   |
 
 As the width (W) increases, the drain current (ID) also increases. The desired ID = **55.55 µA** was achieved at **W = 0.2091µm**.
-![image alt](https://raw.githubusercontent.com/Madeena123-hub/Lic/e2884ffe5e6483ac27b8d6b585380654c2d9b409/Screenshot%202025-02-15%20055950.png)![image alt](https://raw.githubusercontent.com/Madeena123-hub/Lic/391b45042d78792c58b533adc1f2b86f6dfec6ad/Screenshot%202025-02-15%20060040.png) 
+![image alt](https://raw.githubusercontent.com/Madeena123-hub/Lic/e2884ffe5e6483ac27b8d6b585380654c2d9b409/Screenshot%202025-02-15%20055950.png)
+![image alt](https://raw.githubusercontent.com/Madeena123-hub/Lic/391b45042d78792c58b533adc1f2b86f6dfec6ad/Screenshot%202025-02-15%20060040.png) 
+
+### **AC ANALYSIS**
+
 
