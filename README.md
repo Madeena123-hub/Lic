@@ -126,9 +126,9 @@ Transient Analysis is used to simulate the time-domain response of a circuit whe
 ![image alt](https://raw.githubusercontent.com/Madeena123-hub/Lic/1aaa704b1243b06915342aed977369e1d3933232/Screenshot%202025-02-16%20043228.png) 
 
 
-vout=1.64727v<br>
-vin=0.9v<br>
-Av=vout/vin=1.64727v/0.9v=1.8303v
+vout = 1.64727v<br>
+vin = 0.9v<br>
+Av = vout/vin = 1.64727v/0.9v = 1.8303
 
 ### **Inference**
 The MOSFET amplifier properly amplifies the signal with a gain of 1.8303v<br>
@@ -159,8 +159,19 @@ Gain=2.638db
 
 ### **Transient analysis**
 with same Transient analysis Parameters
-![image alt](https://raw.githubusercontent.com/Madeena123-hub/Lic/a479d90884108446e40a1fc5f1a704cf919f96c6/Screenshot%202025-02-16%20101239.png) 
+![image alt](https://raw.githubusercontent.com/Madeena123-hub/Lic/7b1334721866eae4d83e0ee19c65bae28948cf83/Screenshot%202025-02-16%20103949.png)
 
+vout = 0.439018<br>
+vin = 0.9v<br>
+Av = vout/vin = 0.439018/0.9v = 0.4877
 
+### **DC Sweep**
+**Parameters**
+Type of Sweep: Linear<br>
+Start Value: 0
+stop Value: 1.8
+Increment: 0.1
+
+![image alt](https://raw.githubusercontent.com/Madeena123-hub/Lic/7b1334721866eae4d83e0ee19c65bae28948cf83/Screenshot%202025-02-16%20103949.png)
 
 
