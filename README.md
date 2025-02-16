@@ -126,8 +126,8 @@ Transient Analysis is used to simulate the time-domain response of a circuit whe
 ![image alt](https://raw.githubusercontent.com/Madeena123-hub/Lic/1aaa704b1243b06915342aed977369e1d3933232/Screenshot%202025-02-16%20043228.png) 
 
 
-vout=1.64727v
-vin=0.9v
+vout=1.64727v<br>
+vin=0.9v<br>
 Av=vout/vin=1.64727v/0.9v=1.8303v
 
 ### **Inference**
@@ -154,5 +154,13 @@ There is 180 degree phase differnce between input and output
 ### **AC ANALYSIS**
 With same Simulation and Input Signal Parameters
 
-![image alt](https://raw.githubusercontent.com/Madeena123-hub/Lic/c86403982baf44a71f7575a40b2872be06d03ae2/Screenshot%202025-02-16%20085238.png)
+![image alt](https://raw.githubusercontent.com/Madeena123-hub/Lic/45e58f09e3fb84169d824bc2a3c1aa01dda783af/Screenshot%202025-02-16%20103519.png)
+Gain=2.638db
+
+### **Transient analysis**
+with same Transient analysis Parameters
+![image alt](https://raw.githubusercontent.com/Madeena123-hub/Lic/a479d90884108446e40a1fc5f1a704cf919f96c6/Screenshot%202025-02-16%20101239.png) 
+
+
+
 
