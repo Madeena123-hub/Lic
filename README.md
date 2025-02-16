@@ -93,6 +93,7 @@ VDS > VOV<br>
 VDS = vout = 1.64727V<br>
 VOV = VGS-VTH = 0.9v-0.366v = 0.534v<br>
 1.64727V > 0.534v<br>
+**DC Operating Point(vout,Id) = (1.64727V,55.55uA)**
 
 ### **AC ANALYSIS**
 AC analysis is a frequency-domain simulation used to determine the gain, phase shift, and bandwidth of a circuit over a specified frequency range. It helps in analyzing the circuit’s behavior for different frequencies, which is essential for amplifier and filter design.
@@ -150,6 +151,7 @@ There is 180 degree phase differnce between input and output
 
 ![image alt](https://raw.githubusercontent.com/Madeena123-hub/Lic/a479d90884108446e40a1fc5f1a704cf919f96c6/Screenshot%202025-02-16%20101239.png) 
 
+**DC Operating Point(vout,Id) = ( 0.439018v,55.55uA)**
 
 ### **AC ANALYSIS**
 With same Simulation and Input Signal Parameters
@@ -163,7 +165,7 @@ with same Transient analysis Parameters
 
 vout = 0.439018<br>
 vin = 0.9v<br>
-Av = vout/vin = 0.439018/0.9v = 0.4877
+Av = vout/vin = 0.439018v/0.9v = 0.4877
 
 ### **DC Sweep**
 **Parameters**
@@ -175,7 +177,7 @@ Increment: 0.1
 ![image alt](https://raw.githubusercontent.com/Madeena123-hub/Lic/608cca75ec0f6c380324b6da5255c8eccf771aa9/Screenshot%202025-02-16%20105052.png)
 
 **Infernce**
-
+### **Comparsion**
 
 
 
