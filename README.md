@@ -159,7 +159,7 @@ VOV = VGS-VTH =0 .9v-0.366v = 0.534v<br>
 With same Simulation and Input Signal Parameters
 
 ![image alt](https://raw.githubusercontent.com/Madeena123-hub/Lic/ff5fde9b78d9e8a721150bd0dccbc7ff92d38796/Screenshot%202025-02-16%20085133.png) 
-![image alt](https://raw.githubusercontent.com/Madeena123-hub/Lic/c11e16d9615382a0a4196f7b624cfb650e506c80/Screenshot%202025-02-16%20084302.png) 
+![image alt](https://raw.githubusercontent.com/Madeena123-hub/Lic/c86403982baf44a71f7575a40b2872be06d03ae2/Screenshot%202025-02-16%20085238.png) 
 
 
 
