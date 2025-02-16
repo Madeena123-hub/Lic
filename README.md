@@ -1,7 +1,7 @@
-### **DC,AC and Transient Analysis of Common Source Amplifier using LTSpice**
+### **AIM: DC,AC and Transient Analysis of Common Source Amplifier using LTSpice**
 
 **1.**
-
+**THEORY**
 A Common Source (CS) Amplifier is a basic MOSFET-based amplifier where the source terminal is common to both the input and output. It is widely used for voltage amplification in analog circuits.
 
 **In this configuration:** 
@@ -93,6 +93,19 @@ VOV=VGS-VTH=0.9v-0.366v =0.534v
 1.64727V > 0.534v
 
 ### **AC ANALYSIS**
+AC analysis is a frequency-domain simulation used to determine the gain, phase shift, and bandwidth of a circuit over a specified frequency range. It helps in analyzing the circuit’s behavior for different frequencies, which is essential for amplifier and filter design.
 
+**Simulation Parameters:**
+Type of Sweep: Decade
+Number of Points per Decade: 5
+Start Frequency: 0.1 Hz
+Stop Frequency: 1 THz
 
+**Input Signal Parameters:**
+Waveform: Sine Wave
+Amplitude: 50 mV
+DC Offset: 0.9 V
+Frequency: 1 kHz
 
+![image alt](https://github.com/Madeena123-hub/Lic/blob/main/Screenshot%202025-02-15%20053848.png?raw=true) 
+![image alt](https://github.com/Madeena123-hub/Lic/blob/main/Screenshot%202025-02-15%20053848.png?raw=true) 
