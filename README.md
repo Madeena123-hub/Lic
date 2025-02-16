@@ -108,4 +108,23 @@ DC Offset: 0.9 V
 Frequency: 1 kHz
 
 ![image alt](https://raw.githubusercontent.com/Madeena123-hub/Lic/4f42b8073d32a4c5dc16c2596b857d1f35a5d6a4/Screenshot%202025-02-16%20041856.png) 
-![image alt](https://github.com/Madeena123-hub/Lic/blob/main/Screenshot%202025-02-15%20053848.png?raw=true) 
+![image alt](https://raw.githubusercontent.com/Madeena123-hub/Lic/2d10d1e7464795842fdf58d109ee5d23dcd20b84/Screenshot%202025-02-16%20040310.png) 
+
+Gain=-8.1606db
+### **Transient analysis**
+
+Transient Analysis is used to simulate the time-domain response of a circuit when a time-varying input (such as a sine wave or pulse) is applied. It helps in analyzing circuit behavior over time, including signal amplification, switching characteristics, and transient response.
+
+Transient Analysis Parameters:
+Stop Time: 5ms 
+Step Time: 10µs 
+Time to Start Saving Data: 0s 
+
+![image alt](https://raw.githubusercontent.com/Madeena123-hub/Lic/4f42b8073d32a4c5dc16c2596b857d1f35a5d6a4/Screenshot%202025-02-16%20041856.png) 
+![image alt](https://raw.githubusercontent.com/Madeena123-hub/Lic/2d10d1e7464795842fdf58d109ee5d23dcd20b84/Screenshot%202025-02-16%20040310.png) 
+
+
+vout=1.64727v
+vin=0.9v
+Av=vout/vin=1.64727v/0.9v=1.8303v
+
