@@ -172,6 +172,10 @@ Start Value: 0
 stop Value: 1.8
 Increment: 0.1
 
-![image alt](https://raw.githubusercontent.com/Madeena123-hub/Lic/7b1334721866eae4d83e0ee19c65bae28948cf83/Screenshot%202025-02-16%20103949.png)
+![image alt](https://raw.githubusercontent.com/Madeena123-hub/Lic/608cca75ec0f6c380324b6da5255c8eccf771aa9/Screenshot%202025-02-16%20105052.png)
+
+**Infernce**
+
+
 
 
