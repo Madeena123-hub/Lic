@@ -90,8 +90,8 @@ As the width (W) increases, the drain current (ID) also increases. The desired I
 **To check if the MOSFET is in the saturation region:**<br>
 
 VDS > VOV<br>
-VDS=vout=1.64727V<br>
-VOV=VGS-VTH=0.9v-0.366v =0.534v<br>
+VDS = vout = 1.64727V<br>
+VOV = VGS-VTH = 0.9v-0.366v = 0.534v<br>
 1.64727V > 0.534v<br>
 
 ### **AC ANALYSIS**
@@ -148,7 +148,19 @@ There is 180 degree phase differnce between input and output
 **"In the second circuit, the resistor is replaced with a PMOS transistor. For Id=55.55uA, the required width (W) of the NMOS and PMOS transistor is found to be 0.2332 µm." **
 
 ![image alt](https://raw.githubusercontent.com/Madeena123-hub/Lic/dd6f147012a229be958e4fdfeb5f99d07ce5e2a5/Screenshot%202025-02-16%20082935.png) 
+![image alt](https://raw.githubusercontent.com/Madeena123-hub/Lic/c11e16d9615382a0a4196f7b624cfb650e506c80/Screenshot%202025-02-16%20084302.png) 
+
+VDS > VOV<br>
+VDS = vout = 1.27874v<br>
+VOV = VGS-VTH =0 .9v-0.366v = 0.534v<br>
+1.27874v > 0.534v<br>
+
+### **AC ANALYSIS**
+With same Simulation and Input Signal Parameters
+
 ![image alt](https://raw.githubusercontent.com/Madeena123-hub/Lic/dd6f147012a229be958e4fdfeb5f99d07ce5e2a5/Screenshot%202025-02-16%20082935.png) 
+![image alt](https://raw.githubusercontent.com/Madeena123-hub/Lic/c11e16d9615382a0a4196f7b624cfb650e506c80/Screenshot%202025-02-16%20084302.png) 
+
 
 
 
