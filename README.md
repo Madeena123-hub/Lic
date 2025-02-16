@@ -87,6 +87,7 @@ As the width (W) increases, the drain current (ID) also increases. The desired I
 ![image alt](https://raw.githubusercontent.com/Madeena123-hub/Lic/e2884ffe5e6483ac27b8d6b585380654c2d9b409/Screenshot%202025-02-15%20055950.png)
 ![image alt](https://raw.githubusercontent.com/Madeena123-hub/Lic/391b45042d78792c58b533adc1f2b86f6dfec6ad/Screenshot%202025-02-15%20060040.png) 
 **To check if the MOSFET is in the saturation region:**
+
 VDS > VOV
 VDS=vout=1.64727V
 VOV=VGS-VTH=0.9v-0.366v =0.534v
@@ -96,16 +97,16 @@ VOV=VGS-VTH=0.9v-0.366v =0.534v
 AC analysis is a frequency-domain simulation used to determine the gain, phase shift, and bandwidth of a circuit over a specified frequency range. It helps in analyzing the circuit’s behavior for different frequencies, which is essential for amplifier and filter design.
 
 **Simulation Parameters:**
-Type of Sweep: Decade
-Number of Points per Decade: 5
-Start Frequency: 0.1 Hz
-Stop Frequency: 1 THz
+• Type of sweep: Decade  
+• Number of points per decade: 5  
+• Start frequency: 0.1 Hz  
+• Stop frequency: 1 THz  
 
 **Input Signal Parameters:**
-Waveform: Sine Wave
-Amplitude: 50 mV
-DC Offset: 0.9 V
-Frequency: 1 kHz
+• Waveform Type: Sine Wave  
+• Amplitude: 50 mV  
+• DC Offset: 0.9 V  
+• Frequency: 1 kHz 
 
 ![image alt](https://raw.githubusercontent.com/Madeena123-hub/Lic/4f42b8073d32a4c5dc16c2596b857d1f35a5d6a4/Screenshot%202025-02-16%20041856.png) 
 ![image alt](https://raw.githubusercontent.com/Madeena123-hub/Lic/2d10d1e7464795842fdf58d109ee5d23dcd20b84/Screenshot%202025-02-16%20040310.png) 
@@ -115,10 +116,10 @@ Gain=-8.1606db
 
 Transient Analysis is used to simulate the time-domain response of a circuit when a time-varying input (such as a sine wave or pulse) is applied. It helps in analyzing circuit behavior over time, including signal amplification, switching characteristics, and transient response.
 
-Transient Analysis Parameters:
-Stop Time: 5ms 
-Step Time: 10µs 
-Time to Start Saving Data: 0s 
+**Transient Analysis Parameters:**
+• Stop time: 5 ms  
+• Step time: 1 µs  
+• Time to start saving data: 0 s  
 
 ![image alt](https://raw.githubusercontent.com/Madeena123-hub/Lic/6a647b74104c4a1c6465cd706ee6fc54c51f54b2/Screenshot%202025-02-16%20044344.png) 
 ![image alt](https://raw.githubusercontent.com/Madeena123-hub/Lic/1aaa704b1243b06915342aed977369e1d3933232/Screenshot%202025-02-16%20043228.png) 
@@ -129,10 +130,10 @@ vin=0.9v
 Av=vout/vin=1.64727v/0.9v=1.8303v
 
 ### **Inference**
-The MOSFET amplifier properly amplifies the signal with a gain of 1.8303v
-DC biasing is correct, ensuring good operation in the active region.
-AC analysis confirms the gain and frequency response, and transient analysis shows proper output waveforms.
-The circuit is suitable for low-frequency applications like audio and analog signal processing.
+The MOSFET amplifier properly amplifies the signal with a gain of 1.8303v<br>
+DC biasing is correct, ensuring good operation in the active region.<br>
+AC analysis confirms the gain and frequency response, and transient analysis shows proper output waveforms.<br>
+The circuit is suitable for low-frequency applications like audio and analog signal processing.<br>
 There is 180 degree phase differnce between input and output
 
 
