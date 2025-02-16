@@ -120,7 +120,7 @@ Stop Time: 5ms
 Step Time: 10µs 
 Time to Start Saving Data: 0s 
 
-![image alt](https://raw.githubusercontent.com/Madeena123-hub/Lic/4f42b8073d32a4c5dc16c2596b857d1f35a5d6a4/Screenshot%202025-02-16%20041856.png) 
+![image alt](https://raw.githubusercontent.com/Madeena123-hub/Lic/6a647b74104c4a1c6465cd706ee6fc54c51f54b2/Screenshot%202025-02-16%20044344.png) 
 ![image alt](https://raw.githubusercontent.com/Madeena123-hub/Lic/1aaa704b1243b06915342aed977369e1d3933232/Screenshot%202025-02-16%20043228.png) 
 
 
