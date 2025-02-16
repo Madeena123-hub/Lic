@@ -141,5 +141,11 @@ There is 180 degree phase differnce between input and output
 
 ### **2nd**
 **"In the second circuit, the resistor is replaced with a PMOS transistor to observe the differences in performance."**
+
 ![image alt](https://raw.githubusercontent.com/Madeena123-hub/Lic/6cd8cc62e03a267bfffb661d3847fee8339b5e11/Screenshot%202025-02-16%20075927.png) 
+
+### **DC ANALYSIS**
+
+![image alt](https://raw.githubusercontent.com/Madeena123-hub/Lic/6cd8cc62e03a267bfffb661d3847fee8339b5e11/Screenshot%202025-02-16%20075927.png) 
+
 
