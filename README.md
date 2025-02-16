@@ -142,24 +142,17 @@ There is 180 degree phase differnce between input and output
 ### **2nd**
 **"In the second circuit, the resistor is replaced with a PMOS transistor to observe the differences in performance."**
 
-![image alt](<img width="410" alt="image" src="https://github.com/user-attachments/assets/86105f7d-f4a7-49c4-9c03-8e46438d5cc8" />) 
+![image alt](https://raw.githubusercontent.com/Madeena123-hub/Lic/7ffe4f824e63e51cdecf8da8d6dbb11d2e064707/Screenshot%202025-02-16%20095920.png) 
 
 ### **DC ANALYSIS**
-**"In the second circuit, the resistor is replaced with a PMOS transistor. For Id=55.55uA, the required width (W) of the NMOS and PMOS transistor is found to be 0.2332 µm." **
+**"In the second circuit, the resistor is replaced with a PMOS transistor. For Id=55.55uA, the required width (W) of the NMOS and PMOS transistor is found to be 0.31599 µm." **
 
 
 ![image alt](https://raw.githubusercontent.com/Madeena123-hub/Lic/c11e16d9615382a0a4196f7b624cfb650e506c80/Screenshot%202025-02-16%20084302.png) 
 
-VDS > VOV<br>
-VDS = vout = 1.27874v<br>
-VOV = VGS-VTH =0 .9v-0.366v = 0.534v<br>
-1.27874v > 0.534v<br>
 
 ### **AC ANALYSIS**
 With same Simulation and Input Signal Parameters
 
-![image alt](https://raw.githubusercontent.com/Madeena123-hub/Lic/c86403982baf44a71f7575a40b2872be06d03ae2/Screenshot%202025-02-16%20085238.png) 
-
-
-
+![image alt](https://raw.githubusercontent.com/Madeena123-hub/Lic/c86403982baf44a71f7575a40b2872be06d03ae2/Screenshot%202025-02-16%20085238.png
 
