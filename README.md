@@ -1,13 +1,14 @@
 ### **AIM: DC,AC and Transient Analysis of Common Source Amplifier using LTSpice**
 
-**1.**
-**THEORY**
+**1.**<br>
+**THEORY**<br>
 A Common Source (CS) Amplifier is a basic MOSFET-based amplifier where the source terminal is common to both the input and output. It is widely used for voltage amplification in analog circuits.
 
-**In this configuration:** 
-The input signal is applied at the gate.
-The output is taken from the drain.
+**In this configuration:** <br>
+The input signal is applied at the gate.<br>
+The output is taken from the drain.<br>
 The source is typically grounded or connected through a resistor.
+
 ![image alt](https://github.com/Madeena123-hub/Lic/blob/main/Screenshot%202025-02-15%20053848.png?raw=true) 
 ### **Component Details & Their Roles**
 
@@ -86,12 +87,12 @@ As the width (W) increases, the drain current (ID) also increases. The desired I
 
 ![image alt](https://raw.githubusercontent.com/Madeena123-hub/Lic/e2884ffe5e6483ac27b8d6b585380654c2d9b409/Screenshot%202025-02-15%20055950.png)
 ![image alt](https://raw.githubusercontent.com/Madeena123-hub/Lic/391b45042d78792c58b533adc1f2b86f6dfec6ad/Screenshot%202025-02-15%20060040.png) 
-**To check if the MOSFET is in the saturation region:**
+**To check if the MOSFET is in the saturation region:**<br>
 
-VDS > VOV
-VDS=vout=1.64727V
-VOV=VGS-VTH=0.9v-0.366v =0.534v
-1.64727V > 0.534v
+VDS > VOV<br>
+VDS=vout=1.64727V<br>
+VOV=VGS-VTH=0.9v-0.366v =0.534v<br>
+1.64727V > 0.534v<br>
 
 ### **AC ANALYSIS**
 AC analysis is a frequency-domain simulation used to determine the gain, phase shift, and bandwidth of a circuit over a specified frequency range. It helps in analyzing the circuit’s behavior for different frequencies, which is essential for amplifier and filter design.
