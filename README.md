@@ -121,7 +121,7 @@ Step Time: 10µs
 Time to Start Saving Data: 0s 
 
 ![image alt](https://raw.githubusercontent.com/Madeena123-hub/Lic/4f42b8073d32a4c5dc16c2596b857d1f35a5d6a4/Screenshot%202025-02-16%20041856.png) 
-![image alt](https://raw.githubusercontent.com/Madeena123-hub/Lic/2d10d1e7464795842fdf58d109ee5d23dcd20b84/Screenshot%202025-02-16%20040310.png) 
+![image alt](https://raw.githubusercontent.com/Madeena123-hub/Lic/1aaa704b1243b06915342aed977369e1d3933232/Screenshot%202025-02-16%20043228.png) 
 
 
 vout=1.64727v
