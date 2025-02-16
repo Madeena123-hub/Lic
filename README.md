@@ -128,3 +128,14 @@ vout=1.64727v
 vin=0.9v
 Av=vout/vin=1.64727v/0.9v=1.8303v
 
+### **Inference**
+The MOSFET amplifier properly amplifies the signal with a gain of 1.8303v
+DC biasing is correct, ensuring good operation in the active region.
+AC analysis confirms the gain and frequency response, and transient analysis shows proper output waveforms.
+The circuit is suitable for low-frequency applications like audio and analog signal processing.
+There is 180 degree phase differnce between input and output
+
+
+
+### **2nd**
+
