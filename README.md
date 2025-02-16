@@ -148,11 +148,11 @@ There is 180 degree phase differnce between input and output
 **"In the second circuit, the resistor is replaced with a PMOS transistor. For Id=55.55uA, the required width (W) of the NMOS and PMOS transistor is found to be 0.31599 µm." **
 
 
-![image alt](https://raw.githubusercontent.com/Madeena123-hub/Lic/c11e16d9615382a0a4196f7b624cfb650e506c80/Screenshot%202025-02-16%20084302.png) 
+![image alt](https://raw.githubusercontent.com/Madeena123-hub/Lic/a479d90884108446e40a1fc5f1a704cf919f96c6/Screenshot%202025-02-16%20101239.png) 
 
 
 ### **AC ANALYSIS**
 With same Simulation and Input Signal Parameters
 
-![image alt](https://raw.githubusercontent.com/Madeena123-hub/Lic/c86403982baf44a71f7575a40b2872be06d03ae2/Screenshot%202025-02-16%20085238.png
+![image alt](https://raw.githubusercontent.com/Madeena123-hub/Lic/c86403982baf44a71f7575a40b2872be06d03ae2/Screenshot%202025-02-16%20085238.png)
 
