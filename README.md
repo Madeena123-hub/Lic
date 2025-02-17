@@ -4,7 +4,7 @@
 **THEORY**<br>
 A Common Source (CS) Amplifier is a basic MOSFET-based amplifier where the source terminal is common to both the input and output. It is widely used for voltage amplification in analog circuits.
 
-**Components Required**
+**Components Required**<br>
 Resistor,MOSFET(nmos4 , pmos4) ,Voltage supply(1.8v,0.9v) and Connecting wires.
 
 **In this configuration:** <br>
