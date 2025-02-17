@@ -4,6 +4,9 @@
 **THEORY**<br>
 A Common Source (CS) Amplifier is a basic MOSFET-based amplifier where the source terminal is common to both the input and output. It is widely used for voltage amplification in analog circuits.
 
+**Components Required**
+Resistor,MOSFET(nmos4 , pmos4) ,Voltage supply(1.8v,0.9v) and Connecting wires.
+
 **In this configuration:** <br>
 The input signal is applied at the gate.<br>
 The output is taken from the drain.<br>
@@ -32,6 +35,8 @@ The source is typically grounded or connected through a resistor.
 | **DC Analysis**   | Determines **biasing point**   | Confirms MOSFET in **saturation** |
 | **AC Analysis**   | Measures **gain & frequency response** | Calculates **Voltage Gain (\( A_v \))** |
 | **Transient Analysis** | Observes **real-time behavior** | Shows **amplified and inverted output** |
+
+**Procedure**
 
 ### **DC ANALYSIS**
 
@@ -98,6 +103,8 @@ VOV = VGS-VTH = 0.9v-0.366v = 0.534v<br>
 ### **AC ANALYSIS**
 AC analysis is a frequency-domain simulation used to determine the gain, phase shift, and bandwidth of a circuit over a specified frequency range. It helps in analyzing the circuit’s behavior for different frequencies, which is essential for amplifier and filter design.
 
+Set AC Amplitude as 1
+
 **Simulation Parameters:**
 • Type of sweep: Decade  
 • Number of points per decade: 5  
@@ -131,16 +138,8 @@ vout = 1.64727v<br>
 vin = 0.9v<br>
 Av = vout/vin = 1.64727v/0.9v = 1.8303
 
-### **Inference**
-The MOSFET amplifier properly amplifies the signal with a gain of 1.8303v<br>
-DC biasing is correct, ensuring good operation in the active region.<br>
-AC analysis confirms the gain and frequency response, and transient analysis shows proper output waveforms.<br>
-The circuit is suitable for low-frequency applications like audio and analog signal processing.<br>
-There is 180 degree phase differnce between input and output
 
-
-
-### **2nd**
+### **2nd Circuit**
 **"In the second circuit, the resistor is replaced with a PMOS transistor to observe the differences in performance."**
 
 ![image alt](https://raw.githubusercontent.com/Madeena123-hub/Lic/7ffe4f824e63e51cdecf8da8d6dbb11d2e064707/Screenshot%202025-02-16%20095920.png) 
@@ -176,8 +175,25 @@ Increment: 0.1
 
 ![image alt](https://raw.githubusercontent.com/Madeena123-hub/Lic/608cca75ec0f6c380324b6da5255c8eccf771aa9/Screenshot%202025-02-16%20105052.png)
 
-**Infernce**
-### **Comparsion**
+### **Inference**
+The MOSFET amplifier properly amplifies the signal with a gain of 1.8303v<br>
+DC biasing is correct, ensuring good operation in the active region.<br>
+AC analysis confirms the gain and frequency response, and transient analysis shows proper output waveforms.<br>
+The circuit is suitable for low-frequency applications like audio and analog signal processing.<br>
+There is 180 degree phase differnce between input and output
+
+### **diffrence between !st and and Circuit**
+## Difference Between First and Second Circuit
+
+| Parameter         | First Circuit (Resistor Load) | Second Circuit (PMOS Active Load) |
+|------------------|-----------------------------|----------------------------------|
+| **Width (W)**    | 0.2091 µm                    | 0.31599 µm                      |
+| **DC Operating Point (Vout, Id)** | (1.64727V, 55.55µA) | (0.439018V, 55.55µA) |
+| **Gain (dB)**    | -8.1606 dB                    | 2.638 dB                         |
+| **Voltage Gain (Av)** | 1.8303 (Vout/Vin) | 0.4877 (Vout/Vin) |
+
+
+
 
 
 
