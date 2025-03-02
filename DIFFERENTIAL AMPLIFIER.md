@@ -7,5 +7,6 @@ In modern electronics, differential amplifiers play a crucial role in communicat
 ### **question:Vdd=2.2v , p<=2.2mv , Vicm=1.2v, Vocm=1.25v , Vp=0.4v**
 
 **Circuit1**<br>
-![image alt](![Screenshot 2025-03-02 161240](https://github.com/user-attachments/assets/a23acca2-97f3-48cd-b1f0-3ca3be2786cb)
+![Screenshot 2025-03-02 161240](https://github.com/user-attachments/assets/338eb269-48a4-4138-a1c0-25b625fd9123)
+
 ) 
