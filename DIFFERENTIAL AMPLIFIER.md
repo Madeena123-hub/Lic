@@ -13,7 +13,31 @@ In modern electronics, differential amplifiers play a crucial role in communicat
 **Step 1:Dc analysis design Rd and Rss**
 ![WhatsApp Image 2025-03-02 at 16 24 34_a544ce2f](https://github.com/user-attachments/assets/dcbb4266-b814-49d4-894a-854e76ae5f80)
 
-from the calculation we have finded Iss value as 1mA,Id1 and Id2 as 0.5mA,Rd as 1.9kohm ,Rss as 400ohm
+from the calculation we have finded Iss value as 1mA <br>
+Id1 and Id2 as 0.5mA <br>
+Rd as 1.9kohm <br>
+Rss as 400ohm <br>
+Vgs=vg - vp = 1.2v - 0.4v = 0.8v <br>
+Vov = vgs - vth = 0.8v - 0.366v = 0.434v <br>
+
+### **DC Analysis**
+
+To set the operating point go to Configure Analysis and select Dc operating Point <br>
+
+to set correct operating point vary width and length values 
+width = 6.45u <br>
+length = 180n <br>
+
+![Screenshot 2025-03-02 164823](https://github.com/user-attachments/assets/2fe5efbe-f348-4bdd-b18f-ee9ddc551ac3)
+
+![Screenshot 2025-03-02 164823](https://github.com/user-attachments/assets/3703450f-6396-46fe-b05c-54f1b5ba496a)
+
+
+
+
+
+
+
 
 
 
