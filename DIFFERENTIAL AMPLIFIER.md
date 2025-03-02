@@ -30,7 +30,8 @@ length = 180n <br>
 
 ![Screenshot 2025-03-02 164823](https://github.com/user-attachments/assets/2fe5efbe-f348-4bdd-b18f-ee9ddc551ac3)
 
-![Screenshot 2025-03-02 164823](https://github.com/user-attachments/assets/3703450f-6396-46fe-b05c-54f1b5ba496a)
+![Screenshot 2025-03-02 164908](https://github.com/user-attachments/assets/316231bf-4a42-4e40-a95e-72c4710cc051)
+
 
 
 
