@@ -52,6 +52,20 @@ As the common-mode input voltage \( VICM \) increases, the source voltage \( VP 
 
 ![WhatsApp Image 2025-03-02 at 20 58 55_6f38755a](https://github.com/user-attachments/assets/cfb49074-5091-4a3b-8e2e-0772f622ec15)
 
+### **GAIN**
+
+![WhatsApp Image 2025-03-02 at 21 16 06_1f174e67](https://github.com/user-attachments/assets/5ab85112-8fa7-4060-ba94-98c5b5cdaa32)
+
+### **TRANSIENT ANALYSIS**
+go to configure Analysis and select transient analysis and then stop time as 5m and time to start saving data as 0 <br>
+
+![Screenshot 2025-03-02 212112](https://github.com/user-attachments/assets/74b10d4b-3cdb-4b45-b7ad-b8be02706d6c)
+
+![Screenshot 2025-03-02 212304](https://github.com/user-attachments/assets/92739734-338d-42f2-8d4f-f6904b5718fb)
+
+![Screenshot 2025-03-02 212546](https://github.com/user-attachments/assets/470d1956-3964-4aa2-a722-cb605d867b1b)
+
+
 
 
 
