@@ -65,6 +65,11 @@ go to configure Analysis and select transient analysis and then stop time as 5m 
 
 ![Screenshot 2025-03-02 212546](https://github.com/user-attachments/assets/470d1956-3964-4aa2-a722-cb605d867b1b)
 
+### **AC Analysis**
+
+go to configure analysis and select AC Analysis
+type of Sweep:decade 
+
 
 
 
