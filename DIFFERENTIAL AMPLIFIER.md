@@ -68,7 +68,16 @@ go to configure Analysis and select transient analysis and then stop time as 5m 
 ### **AC Analysis**
 
 go to configure analysis and select AC Analysis
-type of Sweep:decade 
+• Type of sweep: Decade
+• Number of points per decade: 5
+• Start frequency: 0.1 Hz
+• Stop frequency: 1 THz
+
+Set <br>
+AC Amplitude as 1 and AC Phase as 0 in V1 <br>
+AC Amplitude as 1 and AC Phase as 180 in V2 <br>
+
+
 
 
 
