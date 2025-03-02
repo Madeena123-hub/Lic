@@ -40,9 +40,9 @@ length = 180n <br>
 | **1.2V**                            | **1.24836V**             | **0.4V**                |
 | **1.3V**                            | **1.1V**                 | **0.46V**               |
 
-### Effect of V_ICM on V_out and V_P
+### Effect of VICM on Vout and VP
 
-As the common-mode input voltage \( V_{ICM} \) increases, the source voltage \( V_P \) also increases, causing a shift in the operating point. This leads to a higher drain current, resulting in a greater voltage drop across \( R_D \), which reduces \( V_{out} \).
+As the common-mode input voltage \( VICM \) increases, the source voltage \( VP \) also increases, causing a shift in the operating point. This leads to a higher drain current, resulting in a greater voltage drop across \( RD \), which reduces \( Vout \).
 
 ![Screenshot 2025-03-02 165923](https://github.com/user-attachments/assets/9935d54d-cf30-47ea-80d7-b6691c1cbb31)
 
