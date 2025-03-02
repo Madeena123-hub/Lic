@@ -57,7 +57,16 @@ As the common-mode input voltage \( VICM \) increases, the source voltage \( VP 
 ![WhatsApp Image 2025-03-02 at 21 16 06_1f174e67](https://github.com/user-attachments/assets/5ab85112-8fa7-4060-ba94-98c5b5cdaa32)
 
 ### **TRANSIENT ANALYSIS**
-go to configure Analysis and select transient analysis and then stop time as 5m and time to start saving data as 0 <br>
+go to configure Analysis and select transient analysis then <br>
+stop time as 5m <br>
+time to start saving data as 0 <br>
+
+• Waveform Type: Sine Wave
+• Amplitude: 20 mV
+• DC Offset: 1.2 V
+• Frequency: 1 kHz
+
+And in V2 phi(deg) as 180
 
 ![Screenshot 2025-03-02 212112](https://github.com/user-attachments/assets/74b10d4b-3cdb-4b45-b7ad-b8be02706d6c)
 
@@ -76,6 +85,11 @@ go to configure analysis and select AC Analysis
 Set <br>
 AC Amplitude as 1 and AC Phase as 0 in V1 <br>
 AC Amplitude as 1 and AC Phase as 180 in V2 <br>
+
+![Screenshot 2025-03-02 215847](https://github.com/user-attachments/assets/832d0f56-d7ed-4f4a-b0cb-d0fc4634f410)
+
+![Screenshot 2025-03-02 220006](https://github.com/user-attachments/assets/ecfef7ef-22da-4aa5-93b4-74fba38dd18f)
+
 
 
 
