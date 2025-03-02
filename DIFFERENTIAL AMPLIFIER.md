@@ -7,6 +7,14 @@ In modern electronics, differential amplifiers play a crucial role in communicat
 ### **question:Vdd=2.2v , p<=2.2mv , Vicm=1.2v, Vocm=1.25v , Vp=0.4v**
 
 **Circuit1**<br>
+
 ![Screenshot 2025-03-02 161240](https://github.com/user-attachments/assets/338eb269-48a4-4138-a1c0-25b625fd9123)
 
-) 
+**Step 1:Dc analysis design Rd and Rss**
+![WhatsApp Image 2025-03-02 at 16 24 34_a544ce2f](https://github.com/user-attachments/assets/dcbb4266-b814-49d4-894a-854e76ae5f80)
+
+from the calculation we have finded Iss value as 1mA,Id1 and Id2 as 0.5mA,Rd as 1.9kohm ,Rss as 400ohm
+
+
+
+ 
