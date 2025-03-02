@@ -123,7 +123,7 @@ Replacing Resistor with Current Source
 
 Replacing current Source with MOSFET 
 
-![Screenshot 2025-03-02 232650](https://github.com/user-attachments/assets/17fda082-3e8f-40a6-84ea-de95aa9e1b37)
+![Screenshot 2025-03-03 000910](https://github.com/user-attachments/assets/3b155209-c3eb-4a34-b1ed-1a664c0c2067)
 
 How to find Vb?🤔🤔
 Vb = vth + Vp <br>
@@ -133,9 +133,12 @@ Vb = 0.766v <br>
 ### **DC Analysis**
 
 To set the operating point vary 3rd MOSFET width and keep length as same before 
-For approx operating Point i got width as 39.7u
+For approx operating Point i got width as 17.75u
 
-![Screenshot 2025-03-02 234841](https://github.com/user-attachments/assets/8c7dd6a0-ea91-4e3d-a654-413001cca00f)
+![Screenshot 2025-03-03 001117](https://github.com/user-attachments/assets/b8eab2f6-7e14-4b52-b01e-cfe42d79ec75)
+
+
+
 
 
 
