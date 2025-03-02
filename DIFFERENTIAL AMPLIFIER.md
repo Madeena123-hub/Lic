@@ -86,12 +86,16 @@ Set <br>
 AC Amplitude as 1 and AC Phase as 0 in V1 <br>
 AC Amplitude as 1 and AC Phase as 180 in V2 <br>
 
+![Screenshot 2025-03-02 235653](https://github.com/user-attachments/assets/db083118-03a3-4021-8a05-7e8285b9bea3)
+
 ![Screenshot 2025-03-02 215847](https://github.com/user-attachments/assets/832d0f56-d7ed-4f4a-b0cb-d0fc4634f410)
 
 ![Screenshot 2025-03-02 220006](https://github.com/user-attachments/assets/ecfef7ef-22da-4aa5-93b4-74fba38dd18f)
 
 
 ### **Circuit 2** <br>
+
+Replacing Resistor with Current Source
 
 ![Screenshot 2025-03-02 222734](https://github.com/user-attachments/assets/dc70cd6c-eed5-4693-bb86-b6c9e4096b61)
 
@@ -101,8 +105,9 @@ AC Amplitude as 1 and AC Phase as 180 in V2 <br>
 
 ![Screenshot 2025-03-02 223027](https://github.com/user-attachments/assets/7ed89486-72bf-409c-a950-a7bc6410a323)
 
-
 ### **AC Analysis**
+
+![Screenshot 2025-03-02 235653](https://github.com/user-attachments/assets/698fa1bf-381b-4deb-a83d-4cf1f8227d05)
 
 ![Screenshot 2025-03-02 223315](https://github.com/user-attachments/assets/d0db6eb8-ab1e-4649-bf22-f65bace10bb8)
 
@@ -113,6 +118,32 @@ AC Amplitude as 1 and AC Phase as 180 in V2 <br>
 ![Screenshot 2025-03-02 224947](https://github.com/user-attachments/assets/f1914323-d85a-4be8-a213-21e988cb0678)
 
 ![Screenshot 2025-03-02 225541](https://github.com/user-attachments/assets/e4d83695-4ca3-460d-972c-5aeafdbbca74)
+
+### **Circuit 3** <br>
+
+Replacing current Source with MOSFET 
+
+![Screenshot 2025-03-02 232650](https://github.com/user-attachments/assets/17fda082-3e8f-40a6-84ea-de95aa9e1b37)
+
+How to find Vb?🤔🤔
+Vb = vth + Vp <br>
+Vb = 0.366v + 0.4v <br>
+Vb = 0.766v <br>
+
+### **DC Analysis**
+
+To set the operating point vary 3rd MOSFET width and keep length as same before 
+For approx operating Point i got width as 39.7u
+
+![Screenshot 2025-03-02 234841](https://github.com/user-attachments/assets/8c7dd6a0-ea91-4e3d-a654-413001cca00f)
+
+
+
+
+
+
+
+
 
 
 
