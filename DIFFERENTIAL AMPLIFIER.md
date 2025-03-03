@@ -70,10 +70,6 @@ And in V2 phi(deg) as 180
 
 ![Screenshot 2025-03-02 212112](https://github.com/user-attachments/assets/74b10d4b-3cdb-4b45-b7ad-b8be02706d6c)
 
-![Screenshot 2025-03-02 212304](https://github.com/user-attachments/assets/92739734-338d-42f2-8d4f-f6904b5718fb)
-
-![Screenshot 2025-03-02 212546](https://github.com/user-attachments/assets/470d1956-3964-4aa2-a722-cb605d867b1b)
-
 ### **AC Analysis**
 
 go to configure analysis and select AC Analysis
