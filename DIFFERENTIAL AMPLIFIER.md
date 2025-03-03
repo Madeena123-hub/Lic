@@ -122,7 +122,7 @@ Replacing Resistor with Current Source
 ### **Circuit 3** <br>
 
 Replacing current Source with MOSFET 
-![with mosfet amplitude](https://github.com/user-attachments/assets/8959b3b5-552c-4422-9485-66a5939ecfdc)
+![Screenshot 2025-03-03 000910](https://github.com/user-attachments/assets/e7f5f72e-bcd2-4cbd-91ac-e3d028dad7c2)
 
 How to find Vb?🤔🤔
 Vb = vth + Vp <br>
@@ -136,20 +136,30 @@ For approx operating Point i got width as 17.75u
 
 ![Screenshot 2025-03-03 090257](https://github.com/user-attachments/assets/9417e090-c18b-4535-8baf-38ba7f51338b)
 ![Screenshot 2025-03-03 090317](https://github.com/user-attachments/assets/00b41039-d75d-458f-97a4-345db2f8adfa)
+### **Analysis**
+
+**Increase Vicm from 1.2v to 1.3v and observe Vocm and Vp** <br>
+| **Common-Mode Input Voltage (V_ICM)** | **Output Voltage (V_out)** | **Voltage at Point P (V_P)** |
+|--------------------------------------|--------------------------|--------------------------|
+| **1.2V**                            | **1.24966V**             | **0.401003V**                |
+| **1.3V**                            | **1.03463**                 | **0.444756**               |
+
+![Screenshot 2025-03-03 121707](https://github.com/user-attachments/assets/29f3ef34-53b7-4c1b-bb3d-2c47e07984d6)
+
 
 **input and output maximum swing**
 ![WhatsApp Image 2025-03-03 at 11 47 10_35caf2f9](https://github.com/user-attachments/assets/2ceb79ce-693e-4adf-b3bf-15f794a32941)
+change amplitude value from 50m to 600m
+
+![Screenshot 2025-03-03 121029](https://github.com/user-attachments/assets/ef9c2657-7be4-47ba-9f9d-8a4df4bd9ddf)
 
 ### **AC Analysis**
-
-
-
+![Screenshot 2025-03-02 235653](https://github.com/user-attachments/assets/4b7b36a7-acf8-44cf-9346-13bf0ad5aa6c)
+![Screenshot 2025-03-02 220006](https://github.com/user-attachments/assets/a250c882-1bd7-4723-a149-67d51bc9bcdb)
 
 ### **TRANSIENT ANALYSIS**
 
-
-
-
+![Screenshot 2025-03-03 120532](https://github.com/user-attachments/assets/38871fd2-2ed0-42fb-bcf1-006936452e3e)
 
 
 ### ""Result and Inference""
