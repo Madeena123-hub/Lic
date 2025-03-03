@@ -115,10 +115,6 @@ Replacing Resistor with Current Source
 
 ![Screenshot 2025-03-02 224140](https://github.com/user-attachments/assets/e68ff7b8-09b1-4afa-9d31-49f6f7a2c907)
 
-![Screenshot 2025-03-02 224947](https://github.com/user-attachments/assets/f1914323-d85a-4be8-a213-21e988cb0678)
-
-![Screenshot 2025-03-02 225541](https://github.com/user-attachments/assets/e4d83695-4ca3-460d-972c-5aeafdbbca74)
-
 ### **Circuit 3** <br>
 
 Replacing current Source with MOSFET 
@@ -142,9 +138,9 @@ For approx operating Point i got width as 17.75u
 | **Common-Mode Input Voltage (V_ICM)** | **Output Voltage (V_out)** | **Voltage at Point P (V_P)** |
 |--------------------------------------|--------------------------|--------------------------|
 | **1.2V**                            | **1.24966V**             | **0.401003V**                |
-| **1.3V**                            | **1.03463**                 | **0.444756**               |
+| **1.3V**                            | **1.21903**                 | **0.489871**               |
 
-![Screenshot 2025-03-03 121707](https://github.com/user-attachments/assets/29f3ef34-53b7-4c1b-bb3d-2c47e07984d6)
+![Screenshot 2025-03-03 122530](https://github.com/user-attachments/assets/bd6d221e-d83b-4542-977b-87d603ae7bd5)
 
 
 **input and output maximum swing**
