@@ -99,6 +99,10 @@ Replacing Resistor with Current Source
 
 ![Screenshot 2025-03-02 222734](https://github.com/user-attachments/assets/dc70cd6c-eed5-4693-bb86-b6c9e4096b61)
 
+### **Calculate maximum input and output Swing**
+![Screenshot 2025-03-03 123051](https://github.com/user-attachments/assets/0c6ab4ef-5118-479d-a3e8-9069cf0deae5)
+
+
 ### **DC Analysis**
 
 ![Screenshot 2025-03-02 222935](https://github.com/user-attachments/assets/d922b434-5aa1-4bb5-8855-bf281f8d0f53)
