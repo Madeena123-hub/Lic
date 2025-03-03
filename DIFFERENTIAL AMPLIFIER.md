@@ -95,6 +95,17 @@ Replacing Resistor with Current Source
 
 ![Screenshot 2025-03-02 222734](https://github.com/user-attachments/assets/dc70cd6c-eed5-4693-bb86-b6c9e4096b61)
 
+### **Analysis**
+
+**Increase Vicm from 1.2v to 1.3v and observe Vocm and Vp** <br>
+
+| **Common-Mode Input Voltage (V_ICM)** | **Output Voltage (V_out)** | **Voltage at Point P (V_P)** |
+|--------------------------------------|--------------------------|--------------------------|
+| **1.2V**                            | **1.24836V**             | **0.4V**                |
+| **1.3V**                            | **1.25V**                 | **0.497351**               |
+
+![Screenshot 2025-03-03 134958](https://github.com/user-attachments/assets/f7376f8e-6484-457f-8b48-538c72138978)
+
 ### **Calculate maximum input and output Swing**
 ![Screenshot 2025-03-03 123051](https://github.com/user-attachments/assets/0c6ab4ef-5118-479d-a3e8-9069cf0deae5)
 
