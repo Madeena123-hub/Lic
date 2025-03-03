@@ -135,11 +135,29 @@ Vb = 0.766v <br>
 To set the operating point vary 3rd MOSFET width and keep length as same before 
 For approx operating Point i got width as 17.75u
 
-![Screenshot 2025-03-03 001117](https://github.com/user-attachments/assets/b8eab2f6-7e14-4b52-b01e-cfe42d79ec75)
+![Screenshot 2025-03-03 090257](https://github.com/user-attachments/assets/9417e090-c18b-4535-8baf-38ba7f51338b)
+![Screenshot 2025-03-03 090317](https://github.com/user-attachments/assets/00b41039-d75d-458f-97a4-345db2f8adfa)
+
+The New Vth should be taken(Body Effect) then we need to find the Amplitude as shown in Calculations <br>
+
+![WhatsApp Image 2025-03-03 at 11 14 37_5ac86f99](https://github.com/user-attachments/assets/89bff90e-0861-49e6-b963-74ebadeeaacd)
+
+
 
 ### **AC Analysis**
+![Screenshot 2025-03-03 084631](https://github.com/user-attachments/assets/22412a25-f96a-476d-bf04-acdee38b775e)
+![Screenshot 2025-03-03 111134](https://github.com/user-attachments/assets/a8023773-56b9-4c56-82de-c0fdeb53c241)
+
+
+
 
 ### **TRANSIENT ANALYSIS**
+![Screenshot 2025-03-03 090356](https://github.com/user-attachments/assets/d6ad7561-fe59-40d0-8f08-8e893d1fe9b9)
+![Screenshot 2025-03-03 090743](https://github.com/user-attachments/assets/684eaa4a-f651-4a16-93ed-0ef87cf04532)
+![Screenshot 2025-03-03 090743](https://github.com/user-attachments/assets/0045ebcf-8754-405a-a506-bebedb0a03d9)
+
+
+
 
 ### ""Result and Inference""
 
