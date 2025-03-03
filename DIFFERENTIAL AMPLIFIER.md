@@ -48,9 +48,13 @@ As the common-mode input voltage \( VICM \) increases, the source voltage \( VP 
 
 ### **Calculate maximum input and output Swing**
 
+change amplitude value from 50m to 600m
+
 ![WhatsApp Image 2025-03-02 at 20 58 55_50bf8a35](https://github.com/user-attachments/assets/528ca83b-b081-42c5-a450-f31491dd1fcd)
 
 ![WhatsApp Image 2025-03-02 at 20 58 55_6f38755a](https://github.com/user-attachments/assets/cfb49074-5091-4a3b-8e2e-0772f622ec15)
+
+![Screenshot 2025-03-03 135757](https://github.com/user-attachments/assets/269c8150-fac3-4692-bd28-4245d4ff6c78)
 
 ### **GAIN**
 
@@ -95,19 +99,6 @@ Replacing Resistor with Current Source
 
 ![Screenshot 2025-03-02 222734](https://github.com/user-attachments/assets/dc70cd6c-eed5-4693-bb86-b6c9e4096b61)
 
-### **Analysis**
-
-**Increase Vicm from 1.2v to 1.3v and observe Vocm and Vp** <br>
-
-| **Common-Mode Input Voltage (V_ICM)** | **Output Voltage (V_out)** | **Voltage at Point P (V_P)** |
-|--------------------------------------|--------------------------|--------------------------|
-| **1.2V**                            | **1.24836V**             | **0.4V**                |
-| **1.3V**                            | **1.25V**                 | **0.497351**               |
-
-![Screenshot 2025-03-03 134958](https://github.com/user-attachments/assets/f7376f8e-6484-457f-8b48-538c72138978)
-
-### **Calculate maximum input and output Swing**
-![Screenshot 2025-03-03 123051](https://github.com/user-attachments/assets/0c6ab4ef-5118-479d-a3e8-9069cf0deae5)
 
 
 ### **DC Analysis**
@@ -115,6 +106,24 @@ Replacing Resistor with Current Source
 ![Screenshot 2025-03-02 222935](https://github.com/user-attachments/assets/d922b434-5aa1-4bb5-8855-bf281f8d0f53)
 
 ![Screenshot 2025-03-02 223027](https://github.com/user-attachments/assets/7ed89486-72bf-409c-a950-a7bc6410a323)
+
+### **Analysis**
+
+**Increase Vicm from 1.2v to 1.3v and observe Vocm and Vp** <br>
+
+| **Common-Mode Input Voltage (V_ICM)** | **Output Voltage (V_out)** | **Voltage at Point P (V_P)** |
+|--------------------------------------|--------------------------|--------------------------|
+| **1.2V**                            | **1.25**             | **0.401083V**                |
+| **1.3V**                            | **1.25V**                 | **0.497351**               |
+
+![Screenshot 2025-03-03 134958](https://github.com/user-attachments/assets/f7376f8e-6484-457f-8b48-538c72138978)
+
+### **Calculate maximum input and output Swing**
+
+change amplitude value from 50m to 600m
+
+![Screenshot 2025-03-03 123051](https://github.com/user-attachments/assets/0c6ab4ef-5118-479d-a3e8-9069cf0deae5)
+
 
 ### **AC Analysis**
 
@@ -156,6 +165,7 @@ For approx operating Point i got width as 17.75u
 
 **input and output maximum swing**
 ![WhatsApp Image 2025-03-03 at 11 47 10_35caf2f9](https://github.com/user-attachments/assets/2ceb79ce-693e-4adf-b3bf-15f794a32941)
+
 change amplitude value from 50m to 600m
 
 ![Screenshot 2025-03-03 121029](https://github.com/user-attachments/assets/ef9c2657-7be4-47ba-9f9d-8a4df4bd9ddf)
@@ -168,21 +178,34 @@ change amplitude value from 50m to 600m
 
 ![Screenshot 2025-03-03 120532](https://github.com/user-attachments/assets/38871fd2-2ed0-42fb-bcf1-006936452e3e)
 
-
-### ""Result and Inference""
-
 ### **Circuit 4**
 Replace two resistor with PMOS Transistor
 
-![Screenshot 2025-03-03 054151](https://github.com/user-attachments/assets/3bddfece-f2be-4f60-9caf-61d53a124653)
+![Screenshot 2025-03-03 141831](https://github.com/user-attachments/assets/8248b285-f4f7-4d68-9146-79dbf01e993c)
+
+**Increase Vicm from 1.2v to 1.3v and observe Vocm and Vp** <br>
+| **Common-Mode Input Voltage (V_ICM)** | **Output Voltage (V_out)** | **Voltage at Point P (V_P)** |
+|--------------------------------------|--------------------------|--------------------------|
+| **1.2V**                            | **1.25736V**             | **0.400765V**                |
+| **1.3V**                            | **1.24898**                 | **0.490473**               |
+
+![Screenshot 2025-03-03 142649](https://github.com/user-attachments/assets/500b27a3-ccf6-459f-b89c-7ffcbadef3f2)
+
 
 ### **DC Analysis**
+to get correct operating point change M3 MOSFET width as 17.8u and PMOS width as 11u 
+
+![Screenshot 2025-03-03 142107](https://github.com/user-attachments/assets/0f52ee71-a54f-4bba-b0a2-ee51ce32cfdb)
+
+### **Calculate maximum input and output Swing**
+change amplitude value from 50m to 600m
+![Screenshot 2025-03-03 142434](https://github.com/user-attachments/assets/6ade1bee-1d6a-46b1-a9c8-294cc5371e55)
+
 
 ### **AC Analysis**
 
 ### **TRANSIENT ANALYSIS**
 
-### ""Result and Inference""
 
 
 
