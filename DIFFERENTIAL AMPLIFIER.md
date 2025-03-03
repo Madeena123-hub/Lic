@@ -137,6 +137,32 @@ For approx operating Point i got width as 17.75u
 
 ![Screenshot 2025-03-03 001117](https://github.com/user-attachments/assets/b8eab2f6-7e14-4b52-b01e-cfe42d79ec75)
 
+### **AC Analysis**
+
+### **TRANSIENT ANALYSIS**
+
+### ""Result and Inference""
+
+### **Circuit 4**
+Replace two resistor with PMOS Transistor
+
+![Screenshot 2025-03-03 054151](https://github.com/user-attachments/assets/3bddfece-f2be-4f60-9caf-61d53a124653)
+
+### **DC Analysis**
+
+### **AC Analysis**
+
+### **TRANSIENT ANALYSIS**
+
+### ""Result and Inference""
+
+
+
+
+
+
+
+
 
 
 
