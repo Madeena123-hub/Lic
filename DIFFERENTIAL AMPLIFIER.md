@@ -178,6 +178,16 @@ change amplitude value from 50m to 600m
 
 ![Screenshot 2025-03-03 120532](https://github.com/user-attachments/assets/38871fd2-2ed0-42fb-bcf1-006936452e3e)
 
+### **Infernce**
+| Case                          | Effect on Circuit                                      | Inference                                      |
+|-------------------------------|-------------------------------------------------------|------------------------------------------------|
+| First resistor in ground      | Provides a fixed reference for one side of the circuit | Helps define the operating point of MOSFET    |
+| Second resistor replaced by current source | Ensures a constant tail current                 | Improves stability and common-mode rejection  |
+| MOSFET replaced               | Changes amplification characteristics                | Affects gain, input impedance, and biasing   |
+| Resistor-loaded vs Current-source-loaded | Resistors limit gain, current source stabilizes gain | Current source improves differential performance |
+
+
+
 ### **Circuit 4**
 Replace two resistor with PMOS Transistor
 
