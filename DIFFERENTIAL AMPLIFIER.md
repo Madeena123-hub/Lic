@@ -213,9 +213,13 @@ change amplitude value from 50m to 600m
 
 
 ### **AC Analysis**
+<img width="955" alt="image" src="https://github.com/user-attachments/assets/766ce709-5ccd-45e5-85bb-80d0ca264473" />
+
+<img width="958" alt="image" src="https://github.com/user-attachments/assets/051fa579-8e19-4513-b5d3-0eb18d948876" />
 
 ### **TRANSIENT ANALYSIS**
 
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/d267b148-455f-4cab-b86a-fa69d425de51" />
 
 
 
