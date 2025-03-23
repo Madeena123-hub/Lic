@@ -71,8 +71,32 @@ Iref = 0.2777m <br>
 
 set Vin that the Mosfet should be in saturation region, than changing width of third MOSFET set VX=Vout <br>
 for 6.527843u width of 3rd MOSFET i got VX=VOUT (0.966806V = 0.966806V) 
+**DC Analysis**
 
 <img width="284" alt="image" src="https://github.com/user-attachments/assets/800a118a-b5f4-41ee-ad96-b104bb29b422" />
+
+**Transient Analysis**
+<img width="957" alt="image" src="https://github.com/user-attachments/assets/b937a3fe-6051-4691-94f5-f54ae3a733de" />
+
+to get the gain approx 10V/V change  the amplitude <br>
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/2bfa9e9c-a4ee-49c7-b981-855099d9bfde" />
+
+expected gain: 10 V/V
+Obtained gain: 10.5 v/v
+Av= vout / vin 
+Av= (1.632-.154)/(770m-630m)
+
+**AC Analysis**
+
+<img width="956" alt="image" src="https://github.com/user-attachments/assets/8f453c65-aadc-4bfb-8e7a-a2f6aeb8b5bf" />
+
+AV(db) = 26.602db
+3db Bandwidth = 294.45011MHz.
+
+**DC Sweep**
+<img width="949" alt="image" src="https://github.com/user-attachments/assets/c7b5e124-6d68-4b39-8cca-3aa46ccc87b7" />
+
+
 
 
 
