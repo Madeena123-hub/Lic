@@ -24,16 +24,18 @@ Minimal transistor count.
 Poor output impedance.
 Limited accuracy due to channel-length modulation.
 
-###** AIM:Design and analyis current mirror circuit as active load in amplifier circuit**
+### **AIM:Design and analyis current mirror circuit as active load in amplifier circuit**
 
-**1st one**
+### **1st one**
+
+
 <img width="403" alt="image" src="https://github.com/user-attachments/assets/49aa33e6-b181-44ba-a149-aa5c12f2fc00" />
 
 <img width="316" alt="image" src="https://github.com/user-attachments/assets/608a48e4-726b-40ab-aa12-1e3152903946" />
 
-RD=820ohm
-Iref=100uA
-VDD=1.8v
+RD=820ohm<br>
+Iref=100uA<br>
+VDD=1.8v<br>
 
 **Current variation because of vx and vout value**
 ID=1/2*un*cox*w/L*(VGS-VTH)^2*(1+lambda VDS)
@@ -46,3 +48,25 @@ ID=1/2*un*cox*w/L*(VGS-VTH)^2*(1+lambda VDS)
 |  100         |       100.648         |    1u/1u            |       1u/1u            |  1.39727        |    1.71747       |
 |   200        |  197.637              |       1u/1u            |   2u/1u                |   1.39727       |   1.63794        |
 |   50        |   52.1312             |        1u/1u           |      0.5u/1u             |       1.39727     |  1.75725         |
+
+### **2nd one**
+
+Given:
+Av > -10 v/v <br>
+vdd = 1.8v <br>
+p <= 1mv  <br>
+Itotal = p / vdd  <br>
+Itotal = 1mv / 1.8v = 0.555m <br>
+Itotal = Iref + Ix <br>
+Iref = 0.2777m <br>
+
+<img width="443" alt="image" src="https://github.com/user-attachments/assets/a33e6821-dc76-4c90-90a7-dbe270e113db" />
+
+| parameters| M1| M2 | M3 |
+|----------|----------|----------|----------|
+| Model         |   CMOSP       | CMOSP         |   CMOSN       |
+|   length       |    180n      |    180n      |    180n      |
+|    Width      |  10u         |10u          |      6.527843u    |
+|    Current      |    0.2777m      | 0.2777m          |     0.2777m      |
+
+
