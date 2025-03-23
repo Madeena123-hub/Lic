@@ -67,6 +67,16 @@ Iref = 0.2777m <br>
 | Model         |   CMOSP       | CMOSP         |   CMOSN       |
 |   length       |    180n      |    180n      |    180n      |
 |    Width      |  10u         |10u          |      6.527843u    |
-|    Current      |    0.2777m      | 0.2777m          |     0.2777m      |
+|    Current(A)   |    0.2777m      | 0.2777m          |     0.2777m      |
+
+set Vin that the Mosfet should be in saturation region, than changing width of third MOSFET set VX=Vout <br>
+for 6.527843u width of 3rd MOSFET i got VX=VOUT (0.966806V = 0.966806V) 
+
+<img width="284" alt="image" src="https://github.com/user-attachments/assets/800a118a-b5f4-41ee-ad96-b104bb29b422" />
+
+
+
+
+
 
 
