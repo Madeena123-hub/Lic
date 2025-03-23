@@ -27,7 +27,7 @@ Limited accuracy due to channel-length modulation.
 ### **AIM:Design and analyis current mirror circuit as active load in amplifier circuit**
 
 ### **1st one**
-
+**Case 1: For mirror ratio 1:1**
 
 <img width="403" alt="image" src="https://github.com/user-attachments/assets/49aa33e6-b181-44ba-a149-aa5c12f2fc00" />
 
@@ -81,20 +81,21 @@ for 6.527843u width of 3rd MOSFET i got VX=VOUT (0.966806V = 0.966806V)
 to get the gain approx 10V/V change  the amplitude <br>
 <img width="959" alt="image" src="https://github.com/user-attachments/assets/2bfa9e9c-a4ee-49c7-b981-855099d9bfde" />
 
-expected gain: 10 V/V
-Obtained gain: 10.5 v/v
-Av= vout / vin 
-Av= (1.632-.154)/(770m-630m)
+expected gain: 10 V/V <br>
+Obtained gain: 10.5 v/v <br>
+Av= vout / vin <br>
+Av= (1.632-.154)/(770m-630m) 
 
 **AC Analysis**
 
 <img width="956" alt="image" src="https://github.com/user-attachments/assets/8f453c65-aadc-4bfb-8e7a-a2f6aeb8b5bf" />
 
-AV(db) = 26.602db
-3db Bandwidth = 294.45011MHz.
+AV(db) = 26.602db <br>
+3db Bandwidth = 294.45011MHz. 
 
 **DC Sweep**
 <img width="949" alt="image" src="https://github.com/user-attachments/assets/c7b5e124-6d68-4b39-8cca-3aa46ccc87b7" />
+
 
 
 
