@@ -65,12 +65,13 @@ Iref = 0.2777m <br>
 | parameters| M1| M2 | M3 |
 |----------|----------|----------|----------|
 | Model         |   CMOSP       | CMOSP         |   CMOSN       |
-|   length       |    180n      |    180n      |    180n      |
-|    Width      |  10u         |10u          |      6.527843u    |
+|   length(m)       |    180n      |    180n      |    180n      |
+|    Width(m)     |  10u         |10u          |      6.527843u    |
 |    Current(A)   |    0.2777m      | 0.2777m          |     0.2777m      |
 
 set Vin that the Mosfet should be in saturation region, than changing width of third MOSFET set VX=Vout <br>
 for 6.527843u width of 3rd MOSFET i got VX=VOUT (0.966806V = 0.966806V) 
+
 **DC Analysis**
 
 <img width="284" alt="image" src="https://github.com/user-attachments/assets/800a118a-b5f4-41ee-ad96-b104bb29b422" />
@@ -95,6 +96,38 @@ AV(db) = 26.602db <br>
 
 **DC Sweep**
 <img width="949" alt="image" src="https://github.com/user-attachments/assets/c7b5e124-6d68-4b39-8cca-3aa46ccc87b7" />
+
+Now for length= 500nm
+
+| parameters| M1| M2 | M3 |
+|----------|----------|----------|----------|
+| Model         |   CMOSP       | CMOSP         |   CMOSN       |
+|   length(m)      |    500n      |    500n      |    500n      |
+|    Width(m)   |  10u         |10u          |     16.89664u   |
+|    Current(A)   |    0.2777m      | 0.2777m          |     0.2777m      |
+
+changing width of third MOSFET set VX=Vout <br>
+for 16.89664u  width of 3rd MOSFET i got VX=VOUT (0.64368v = 0.64368v) 
+
+**DC operating Point**
+
+<img width="277" alt="image" src="https://github.com/user-attachments/assets/e3e8b151-45bf-4304-a7ae-0fbceeed26ff" />
+
+**AC Analysis**
+<img width="956" alt="image" src="https://github.com/user-attachments/assets/83f9386f-cc2e-4c1e-8768-0bb89651d3e4" />
+
+AV(db) = 34.11db <br>
+3db Bandwidth = 75.752503MHz.
+
+**Transient Analysis**
+
+
+
+
+
+
+
+
 
 
 
