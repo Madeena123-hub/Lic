@@ -31,6 +31,14 @@ Limited accuracy due to channel-length modulation.
 
 <img width="316" alt="image" src="https://github.com/user-attachments/assets/608a48e4-726b-40ab-aa12-1e3152903946" />
 
+RD=820ohm
+Iref=100uA
+VDD=1.8v
+
+**Current variation because of vx and vout value**
+ID=1/2*un*cox*w/L*(VGS-VTH)^2*(1+lambda VDS)
+
+
 | Iref (µA) | I_appeared (µA) | W/L (MOSFET 2) | W/L (MOSFET 4) | Vx (V)   | Vout (V)  |
 |-----------|----------------|----------------|----------------|----------|-----------|
 | 100       | 103.506        | 180n/180n      | 180n/180n      | 1.27535  | 1.71512   |
