@@ -129,18 +129,16 @@ obtained gain is 28.475v/v
 
 ### **circuit-3**
 Circuit daigram:
-
-![Screenshot 2025-03-24 084623](https://github.com/user-attachments/assets/dd3f1445-4175-402b-9d4a-8b2cbb13449d)
+<img width="491" alt="image" src="https://github.com/user-attachments/assets/6baeb64f-68b3-4e68-800f-85b23538b196" />
 
 DC operating Point:
-
-![Screenshot 2025-03-24 083637](https://github.com/user-attachments/assets/21138847-b46f-4203-b3df-dfbb9720d188)
-![Screenshot 2025-03-24 083556](https://github.com/user-attachments/assets/7ab7a2cc-9a8c-4b68-a63a-ce71e29846b6)
-![Screenshot 2025-03-24 083653](https://github.com/user-attachments/assets/507db135-f07d-427a-aa58-164dac004516)
+<img width="290" alt="image" src="https://github.com/user-attachments/assets/821dc309-227b-4be9-9e6d-eaf18ee240bf" />
 
 AC analysis:
+<img width="957" alt="image" src="https://github.com/user-attachments/assets/5167d4ed-ee54-4e5c-8aa7-810a8b57e0cf" />
 
-
+**Transient Analysis**
+<img width="957" alt="image" src="https://github.com/user-attachments/assets/9f95466c-0ffd-43bc-ab44-3ed39933d982" />
 
 
 
