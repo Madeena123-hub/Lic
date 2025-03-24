@@ -59,8 +59,9 @@ Itotal = p / vdd  <br>
 Itotal = 1mv / 1.8v = 0.555m <br>
 Itotal = Iref + Ix <br>
 Iref = 0.2777m <br>
-
+**length = 180nm**
 <img width="443" alt="image" src="https://github.com/user-attachments/assets/a33e6821-dc76-4c90-90a7-dbe270e113db" />
+
 
 | parameters| M1| M2 | M3 |
 |----------|----------|----------|----------|
@@ -97,7 +98,7 @@ AV(db) = 26.602db <br>
 **DC Sweep**
 <img width="949" alt="image" src="https://github.com/user-attachments/assets/c7b5e124-6d68-4b39-8cca-3aa46ccc87b7" />
 
-Now for length= 500nm
+**Now for length= 500nm**
 
 | parameters| M1| M2 | M3 |
 |----------|----------|----------|----------|
@@ -120,6 +121,13 @@ AV(db) = 34.11db <br>
 3db Bandwidth = 75.752503MHz.
 
 **Transient Analysis**
+<img width="958" alt="image" src="https://github.com/user-attachments/assets/2399f916-ccbb-47fd-a329-9889c77be8b2" />
+
+obtained gain is 28.475v/v
+
+**Now for length= 1um**
+
+
 
 
 
