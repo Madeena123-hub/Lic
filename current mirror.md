@@ -127,14 +127,62 @@ obtained gain is 28.475v/v
 
 **Now for length= 1um**
 
+| parameters| M1| M2 | M3 |
+|----------|----------|----------|----------|
+| Model         |   CMOSP       | CMOSP         |   CMOSN       |
+|   length(m)      |  1u     |    1u     |   1u |
+|    Width(m)   |  10u         |10u          |     31.18954u   |
+|    Current(A)   |    0.278m      | 0.278m          |     0.278m      |
+
+**DC operating Point**
+<img width="280" alt="image" src="https://github.com/user-attachments/assets/cb5948f0-4c59-45a7-a15a-4324a33771cd" />
+
+**AC analysis**
+<img width="956" alt="image" src="https://github.com/user-attachments/assets/6994d7bc-d111-4d74-a90b-7cdd4c6737b4" />
+
+**Transient Analysis**
+<img width="947" alt="image" src="https://github.com/user-attachments/assets/e80e15e4-6fd9-4856-b360-b7d6fa627327" />
+
+**Case 2: For mirror ratio 1:2**
+**length=180nm**
+
+<img width="562" alt="image" src="https://github.com/user-attachments/assets/96d3877d-343a-4e78-938b-1ce51c8acad4" />
+
+**DC operating Point**
+<img width="284" alt="image" src="https://github.com/user-attachments/assets/6d04b53d-1b73-4238-8ffc-4b086c984bb3" />
+
+**AC analysis**
+<img width="957" alt="image" src="https://github.com/user-attachments/assets/7478425d-9cf4-4374-9f53-7caaca79866b" />
+
+**Transient Analysis**
+
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/ae386b37-37c6-437d-8020-4304cf38f149" />
+
+### **for length=500nm**
+| parameters| M1| M2 | M3 |
+|----------|----------|----------|----------|
+| Model         |   CMOSP       | CMOSP         |   CMOSN       |
+|   length(m)      |  190n    |    180n   |   180n |
+|    Width(m)   |  20u         |20u          |     11.0123u  |
+|    Current(A)   |    0.18m      | 0.18m          |     0.18m      |
+
+**DC operating Point**
+<img width="284" alt="image" src="https://github.com/user-attachments/assets/c1220a36-76ab-47f5-a83d-c3bc8983de8b" />
+
+**AC analysis**
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/eb8b1d98-1c2d-485b-87a7-78c1156d5561" />
+
+**Transient Analysis**
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/4c7a98be-7b00-4a44-b390-27da1ab6b8f5" />
+
 ### **circuit-3**
 Circuit daigram:
 <img width="491" alt="image" src="https://github.com/user-attachments/assets/6baeb64f-68b3-4e68-800f-85b23538b196" />
 
-DC operating Point:
+**DC operating Point**
 <img width="290" alt="image" src="https://github.com/user-attachments/assets/821dc309-227b-4be9-9e6d-eaf18ee240bf" />
 
-AC analysis:
+**AC analysis**
 <img width="957" alt="image" src="https://github.com/user-attachments/assets/5167d4ed-ee54-4e5c-8aa7-810a8b57e0cf" />
 
 **Transient Analysis**
