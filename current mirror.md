@@ -128,9 +128,17 @@ obtained gain is 28.475v/v
 **Now for length= 1um**
 
 ### **circuit-3**
+Circuit daigram:
+
+![Screenshot 2025-03-24 084623](https://github.com/user-attachments/assets/dd3f1445-4175-402b-9d4a-8b2cbb13449d)
+
+DC operating Point:
+
 ![Screenshot 2025-03-24 083637](https://github.com/user-attachments/assets/21138847-b46f-4203-b3df-dfbb9720d188)
 ![Screenshot 2025-03-24 083556](https://github.com/user-attachments/assets/7ab7a2cc-9a8c-4b68-a63a-ce71e29846b6)
 ![Screenshot 2025-03-24 083653](https://github.com/user-attachments/assets/507db135-f07d-427a-aa58-164dac004516)
+
+AC analysis:
 
 
 
