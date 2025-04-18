@@ -55,6 +55,15 @@ Find ACM (common mode gain) and Calculate CMRR for ADM = 20 V/V   and 50 V/V . U
 
 ![WhatsApp Image 2025-04-18 at 19 22 31_c88e9e9b](https://github.com/user-attachments/assets/9e7c5744-3562-457e-97e1-f5c2ee713976)
 
+| Desired Gain (A<sub>dm</sub>) | R<sub>G</sub> (Ohms) |
+|------------------------------|----------------------|
+| 10 V/V                       | 22.23 kΩ             |
+| 50 V/V                       | 4.08 kΩ              |
+| 100 V/V                      | 2.02 kΩ              |
+| 200 V/V                      | 1.005 kΩ             |
+| 1000 V/V                     | 200.2 Ω              |
+
+
 
 
 
