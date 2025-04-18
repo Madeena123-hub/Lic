@@ -64,6 +64,8 @@ Find ACM (common mode gain) and Calculate CMRR for ADM = 20 V/V   and 50 V/V . U
 | 200 V/V                      | 1.005 kΩ             |
 | 1000 V/V                     | 200.2 Ω              |
 
+---
+
 ### **1) For Adm= 20 v/v **
 - **Transient Analysis**
 
@@ -83,7 +85,8 @@ Find ACM (common mode gain) and Calculate CMRR for ADM = 20 V/V   and 50 V/V . U
 - CMRR = Adm / Acm
 - 20 v/v / 3.903 * 10^-7 =  51.242 * 10^6
 - 20log( 51.242 * 10^6) = 154.19 dB
-  
+---
+
 ### **2) For Adm= 50 v/v **
 - **Transient Analysis**
 
@@ -101,8 +104,7 @@ Find ACM (common mode gain) and Calculate CMRR for ADM = 20 V/V   and 50 V/V . U
 - CMRR = Adm / Acm
 - 50 v/v / 3.903 * 10^-7 =  128.106 * 10^6
 - 20log( 128.106 * 10^6 ) = 162.151 dB
-
-  
+---  
 ### **3) For Adm= 10 v/v **
 
 - **Transient Analysis**
@@ -121,6 +123,8 @@ Find ACM (common mode gain) and Calculate CMRR for ADM = 20 V/V   and 50 V/V . U
 - 10 v/v / 3.903 * 10^-7 =  25.621 * 10^6
 - 20log( 25.621 * 10^6 ) = 148.171 dB
 
+---
+
 ### **4) For Adm= 100 v/v **
 
 - **Transient Analysis**  
@@ -138,6 +142,8 @@ Find ACM (common mode gain) and Calculate CMRR for ADM = 20 V/V   and 50 V/V . U
 - CMRR = Adm / Acm
 - 100 v/v / 3.903 * 10^-7 =  256.21 * 10^6
 - 20log( 256.21 * 10^6 ) = 168.171 dB
+
+---
 
 ### **5) For Adm= 200 v/v **
 
@@ -158,6 +164,8 @@ Find ACM (common mode gain) and Calculate CMRR for ADM = 20 V/V   and 50 V/V . U
 - 200 v/v / 3.903 * 10^-7 =  512.426 * 10^6
 - 20log(  512.426 * 10^6 ) = 174.192 dB
 
+---
+
  ### **6) For Adm= 1000 v/v **
 
 - **Transient Analysis**
@@ -176,6 +184,8 @@ Find ACM (common mode gain) and Calculate CMRR for ADM = 20 V/V   and 50 V/V . U
 - CMRR = Adm / Acm
 - 1000 v/v / 3.903 * 10^-7 =  2.5621 * 10^9
 - 20log(  2.5621 * 10^9 ) = 188.171 dB
+
+---
 
 ### **Comparasion table**
 
