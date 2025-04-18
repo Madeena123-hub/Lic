@@ -53,11 +53,12 @@ Find ACM (common mode gain) and Calculate CMRR for ADM = 20 V/V   and 50 V/V . U
 ![WhatsApp Image 2025-04-18 at 19 22 15_c1615374](https://github.com/user-attachments/assets/7df39dc5-041b-4998-99f5-b438dd626caf)
 
 
-![WhatsApp Image 2025-04-18 at 19 22 31_c88e9e9b](https://github.com/user-attachments/assets/9e7c5744-3562-457e-97e1-f5c2ee713976)
+![WhatsApp Image 2025-04-18 at 21 00 50_629d090e](https://github.com/user-attachments/assets/97cf0cfb-31b3-4e38-8865-fe048f1161a6)
 
 | Desired Gain (A<sub>dm</sub>) | R<sub>G</sub> (Ohms) |
 |------------------------------|----------------------|
 | 10 V/V                       | 22.23 kΩ             |
+| 20 V/V                       | 10.52 kΩ             |
 | 50 V/V                       | 4.08 kΩ              |
 | 100 V/V                      | 2.02 kΩ              |
 | 200 V/V                      | 1.005 kΩ             |
@@ -65,6 +66,7 @@ Find ACM (common mode gain) and Calculate CMRR for ADM = 20 V/V   and 50 V/V . U
 
 ### **1) For Adm= 10 v/v **
 - **Transient Analysis**
+
   
 
 ### **2) For Adm= 20 v/v **
@@ -79,7 +81,8 @@ Find ACM (common mode gain) and Calculate CMRR for ADM = 20 V/V   and 50 V/V . U
 
 <img width="959" alt="image" src="https://github.com/user-attachments/assets/a785c41c-98bd-4d76-afe8-7cd32ec2545d" />
 
-- Analysis of Acm
+ **Analysis of Acm**
+ 
 - (195.22394 n)-(-195.16567 n) / 0.5 + 0.5 = 3.903 * 10^-7
 - Acm = 3.903 * 10^-7
 - CMRR = Adm / Acm
