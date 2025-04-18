@@ -106,7 +106,73 @@ Find ACM (common mode gain) and Calculate CMRR for ADM = 20 V/V   and 50 V/V . U
 ### **3) For Adm= 10 v/v **
 
 - **Transient Analysis**
-<img width="956" alt="image" src="https://github.com/user-attachments/assets/ba361fbe-635b-4c8c-8516-92fc993ef3a9" />
+<img width="956" alt="image" src="https://github.com/user-attachments/assets/11d62c59-4c81-4050-8ff4-3605584568e0" />
 
 - Analysis of Adm
-- 11.06744305 / 1.4-0.2 ≈ 10 v/v
+- 11.067460323 / 1.4-0.2 ≈ 10 v/v
+
+### **Transient Analysis for Acm**
+
+<img width="956" alt="image" src="https://github.com/user-attachments/assets/9546d2a5-c7bd-4573-87fd-7d526759e3d2" />
+
+- (195.22394 n)-(-195.16567 n) / 0.5 + 0.5 = 3.903 * 10^-7
+- Acm = 3.903 * 10^-7
+- CMRR = Adm / Acm
+- 10 v/v / 3.903 * 10^-7 =  25.621 * 10^6
+- 20log( 25.621 * 10^6 ) = 148.171 dB
+
+### **4) For Adm= 100 v/v **
+
+- **Transient Analysis**  
+<img width="953" alt="image" src="https://github.com/user-attachments/assets/233606b1-4d48-4799-834a-abc632aa5268" />
+
+- Analysis of Adm
+- 11.067469834 / 1.4-1.28 ≈ 100 v/v
+
+### **Transient Analysis for Acm**
+
+<img width="958" alt="image" src="https://github.com/user-attachments/assets/1da98992-216b-4d6a-83c3-f4efb6e4ea84" />
+
+- (195.22394 n)-(-195.16567 n) / 0.5 + 0.5 = 3.903 * 10^-7
+- Acm = 3.903 * 10^-7
+- CMRR = Adm / Acm
+- 100 v/v / 3.903 * 10^-7 =  256.21 * 10^6
+- 20log( 256.21 * 10^6 ) = 168.171 dB
+
+### **5) For Adm= 200 v/v **
+
+- **Transient Analysis**  
+<img width="956" alt="image" src="https://github.com/user-attachments/assets/92a8c9e9-c105-48ae-b33c-465202a70ef1" />
+
+
+- Analysis of Adm
+- 11.067 / 0.08-0.02 ≈ 200 v/v
+
+### **Transient Analysis for Acm**
+
+<img width="958" alt="image" src="https://github.com/user-attachments/assets/572af4eb-4310-4ac0-ad38-809ec4763639" />
+
+- (195.22394 n)-(-195.16567 n) / 0.5 + 0.5 = 3.903 * 10^-7
+- Acm = 3.903 * 10^-7
+- CMRR = Adm / Acm
+- 200 v/v / 3.903 * 10^-7 =  512.426 * 10^6
+- 20log(  512.426 * 10^6 ) = 174.192 dB
+
+ ### **6) For Adm= 1000 v/v **
+
+- **Transient Analysis**
+
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/b0eafc80-87c3-4bec-bd6a-c13a128e1671" />
+
+- Analysis of Adm
+- 11.067 / 0.014-0.002 ≈ 1000 v/v
+
+### **Transient Analysis for Acm**
+
+<img width="956" alt="image" src="https://github.com/user-attachments/assets/4a248e09-6bc7-4b50-aad1-134f2ade6903" />
+
+- (195.22394 n)-(-195.16567 n) / 0.5 + 0.5 = 3.903 * 10^-7
+- Acm = 3.903 * 10^-7
+- CMRR = Adm / Acm
+- 1000 v/v / 3.903 * 10^-7 =  2.5621 * 10^9
+- 20log(  2.5621 * 10^9 ) = 188.171 dB 
