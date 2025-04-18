@@ -63,9 +63,11 @@ Find ACM (common mode gain) and Calculate CMRR for ADM = 20 V/V   and 50 V/V . U
 | 200 V/V                      | 1.005 kΩ             |
 | 1000 V/V                     | 200.2 Ω              |
 
+### **1) For Adm=10 v/v **
+- **Transient Analysis**
+<img width="853" alt="image" src="https://github.com/user-attachments/assets/c05b7830-94f7-41b8-bc35-4e5ef1f1ce93" />
 
-
-
+- 11.06735109 / 2-1.44 = 19.8 ≈ 20 v/v
 
 
 
