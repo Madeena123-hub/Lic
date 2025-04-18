@@ -44,5 +44,12 @@ Find ACM (common mode gain) and Calculate CMRR for ADM = 20 V/V   and 50 V/V . U
 
 ### **circuit diagram**
 
+<img width="642" alt="image" src="https://github.com/user-attachments/assets/13c3448b-c699-4d00-8734-a58ee208f7af" />
+
+### **Formula to find RG**
+
+![image](https://github.com/user-attachments/assets/49e1f480-fc2e-47cc-a1f2-d4f58c13223a)
+
+
 
 
