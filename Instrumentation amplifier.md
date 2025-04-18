@@ -198,3 +198,15 @@ Find ACM (common mode gain) and Calculate CMRR for ADM = 20 V/V   and 50 V/V . U
 | 200                       | 1.005 k       | 3.903 × 10⁻⁷             | 174.192   |
 | 1000                      | 200.2       | 3.903 × 10⁻⁷             | 188.171    |
 
+---
+### **Inference **
+
+The **Instrumentation Amplifier** is highly effective for accurately amplifying small differential signals in the presence of large common-mode noise. Based on the gain vs. resistor values and CMRR (Common-Mode Rejection Ratio) analysis:
+
+- The amplifier demonstrates **high gain accuracy**, with precise control via the resistor `R_G`.
+- The **common-mode gain (`A_cm`)** remains extremely low at `3.903 × 10⁻⁷` V/V, confirming excellent noise rejection.
+- **CMRR increases** significantly with the desired gain — reaching up to **188.171 dB** for a gain of 1000 V/V — indicating exceptional ability to reject common-mode signals.
+- These characteristics make the instrumentation amplifier ideal for **low-level signal acquisition**, such as in biomedical instrumentation (e.g., ECG, EEG), industrial sensors, and precision measurement systems.
+
+
+
