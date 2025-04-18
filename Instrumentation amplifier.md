@@ -6,8 +6,7 @@ An Instrumentation Amplifier (In-Amp) is used for low-frequency signals (≪1 MH
 
 ![image](https://github.com/user-attachments/assets/81176071-d497-4995-9fa1-10fe4a0b5ec3)
 
-![image](https://github.com/user-attachments/assets/d9047bbf-64a4-4980-9720-3101d965f4d0)
-
+https://wikimedia.org/api/rest_v1/media/math/render/svg/a79abd01762201b11d7e5164a417edb16629a0cc
 
 ### **Applications**
 
