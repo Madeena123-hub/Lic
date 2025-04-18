@@ -1,11 +1,10 @@
 ### **INSTRUMENTATION AMPLIFIER**
 
-Instrumentation Amplifiers are basically used to amplify small differential signals. Instrumentation Amplifier provides the most important function of Common-Mode Rejection (CMR). It cancels out any signals that have the same potential on both the inputs. The signals that have a potential difference between the inputs get amplified.
+-Instrumentation Amplifiers are basically used to amplify small differential signals. Instrumentation Amplifier provides the most important function of Common-Mode Rejection (CMR). It cancels out any signals that have the same potential on both the inputs. The signals that have a potential difference between the inputs get amplified.
 
-An Instrumentation Amplifier (In-Amp) is used for low-frequency signals (≪1 MHz) to provide a large amount of Gain. It amplifies the input signal rejecting Common-Mode Noise that is present in the input signal.
+-An Instrumentation Amplifier (In-Amp) is used for low-frequency signals (≪1 MHz) to provide a large amount of Gain. It amplifies the input signal rejecting Common-Mode Noise that is present in the input signal.
 
 ![image](https://github.com/user-attachments/assets/81176071-d497-4995-9fa1-10fe4a0b5ec3)
-![image](https://github.com/user-attachments/assets/8aed117c-e85f-4047-bd01-6d91edb1572f)
 
 ### **Applications**
 
