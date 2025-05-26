@@ -1,10 +1,13 @@
-### ** Monostable multivibrator using 555 timer IC **
+###**Monostable multivibrator using 555 timer IC 
+**
 
-** 1. Aim **
+**1. Aim**
 
 Generate the waveform with pulse width of 0.5ms using 555 IC
 
-** 2. Theory **
+**2. Theory**
 
 A monostable multivibrator is a circuit that has one stable state and one temporary state. Using a 555 timer IC in monostable mode, the circuit generates a single output pulse when triggered. The pulse duration is set by an external resistor and capacitor using the formula 
 T=1.1×R×C. This setup is useful for delay timers, pulse generation, and switch debouncing.
+
+
