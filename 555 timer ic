@@ -1,0 +1,14 @@
+### ** Monostable multivibrator using 555 timer IC **
+
+** 1. Aim **
+
+Generate the waveform with pulse width of 0.5ms using 555 IC
+
+** 2. Theory **
+A monostable multivibrator, also known as a one-shot pulse generator, is a circuit that has one stable state and one temporary (unstable) state. When triggered by an external signal, it temporarily switches to the unstable state for a specific time period and then returns to its stable state automatically.
+
+In this project, we use the popular 555 timer IC to design a monostable multivibrator. The 555 timer is a versatile and widely used integrated circuit that can function in various modes like astable, monostable, and bistable. In monostable mode, the 555 timer generates a single output pulse of a fixed duration when it receives a trigger input.
+
+This circuit is commonly used in applications like pulse generation, debouncing switches, delay timers, and missing pulse detectors. The time duration of the output pulse is determined by an external resistor (R) and capacitor (C) using the formula:
+T=1.1×R×C
+The simplicity, low cost, and reliability of the 555 timer IC make it ideal for implementing a monostable multivibrator for various timing-based tasks.
