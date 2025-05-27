@@ -1,36 +1,3 @@
-### **Cascode Differential Amplifier**
-
-### **Abstract**
-
-The presented circuit is a CMOS differential amplifier using long-tailed pair configuration with current mirror active load and tail current source. The differential pair (M1 and M2)
-processes input signals, while M3-M4 act as active loads to increase gain. M5-M6 form a current mirror for output, and M7 supplies constant tail current, enhancing the amplifier's linearity 
-and stability. This design enables high gain, low offset, and effective common-mode rejection, making it suitable for precision analog applications.
-
-### **Intoduction**
-
-This circuit represents a CMOS differential amplifier with an active load, used for amplifying the voltage difference between two input signals. It is widely employed in analog front ends, operational amplifiers, and signal processing 
-blocks due to its high gain, differential input, and commonmode rejection capabilities.
-
-### **Working Principle**
-
-The input signals Vin1 and Vin2 are applied to the gates of transistors M1 and M2, forming a differential pair. These transistors control the current based on the input voltage difference.
-The cascode transistors M3 and M4 improve the gain by increasing the output resistance. The current mirror formed by M5 and M6 reflects the current to the output node, providing high output impedance and thus better 
-gain. M7 acts as a tail current source, ensuring a constantbias current for the differential pair, improving linearity and stability.
-
-### **Technical Specifications**
 
 
-Components: 
-- 7 MOSFETs (M1 to M7) 
-- Bias voltages: Vb1, Vb 
-- Resistor R1 (optional for degeneration) 
-Power Supply: 
-- VDD = 1.8V 
-Design Features: 
-- Differential input: Vin1, Vin2 
-- Cascode gain boosting (M3, M4) 
-- Current mirror load (M5, M6) 
-- Tail current source (M7)
-
-### **Circuit Daigram**
 
