@@ -1,4 +1,4 @@
-### ** Monostable multivibrator using 555 timer IC **
+### **Monostable multivibrator using 555 timer IC**
 
 ![image](https://github.com/user-attachments/assets/f2662e75-d999-4a0f-82fb-f574dcfc4052)
 
