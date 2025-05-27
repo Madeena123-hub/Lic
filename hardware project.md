@@ -19,25 +19,22 @@ systems, digital electronics (DAC), sensors, and analog interfacing (comparator)
 
 **Working Principle of the System**
 
--Step 1: The ultrasonic sensor emits ultrasonic waves
-and detects the reflected signal to measure distance. 
--Step 2: Arduino Uno receives the distance value and
-converts it into a 4-bit binary number. 
--Step 3: The 4-bit binary value is sent to a weighted
-binary DAC, which outputs a corresponding analog
-voltage (inverted).
+-Step 1: The ultrasonic sensor emits ultrasonic wavesand detects the reflected signal to measure distance. 
+
+-Step 2: Arduino Uno receives the distance value and converts it into a 4-bit binary number. 
+
+
+-Step 3: The 4-bit binary value is sent to a weighted binary DAC, which outputs a corresponding analog voltage (inverted).
 
 ![image](https://github.com/user-attachments/assets/619847a9-d60f-4d2e-bbf5-cbe6243b7069)
 
--Step 4: The inverting buffer corrects the analog
-signal to make it suitable for the comparator. 
--Step 5: The comparator compares the analog voltage
-with predefined upper and lower threshold voltages. 
--Step 6: If the voltage crosses the thresholds, the
-Arduino takes action—activating the buzzer or moving
-the servo. 
--Step 7: This system thus gives an audible or
-mechanical output based on the detected distance.
+-Step 4: The inverting buffer corrects the analog signal to make it suitable for the comparator. 
+
+-Step 5: The comparator compares the analog voltage with predefined upper and lower threshold voltages. 
+
+-Step 6: If the voltage crosses the thresholds, the Arduino takes action—activating the buzzer or moving the servo. 
+
+-Step 7: This system thus gives an audible or mechanical output based on the detected distance.
 
 **Key Components**
 
