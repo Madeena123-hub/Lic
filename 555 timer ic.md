@@ -28,7 +28,7 @@ In monostable mode:
 -The HIGH state persists for a time period determined by the RC time constant, after which the timer automatically returns to LOW.
 -This behavior is internally managed by voltage comparators, a flip-flop, and a discharge transistor within the IC.
 
-**3.working**
+### **3.working**
 
 A monostable multivibrator works by staying in a stable state under normal conditions.When an external trigger pulse is applied,  the circuit temporarily shifts to an unstable state (for a pre-defined time) and then returns automatically to the stable state.
 
